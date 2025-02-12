@@ -1,0 +1,119 @@
+@media (max-width:759px) {
+	
+	.header_unorderlist{
+		display: none;
+	}
+	.header_anchor{
+		display:block;
+	}
+}
+
+
+@media (max-width:435px) {
+    .btn{
+        display: none;
+    }
+	.header_unorderlist {
+        display: none;
+        position: absolute;
+        top: 117px;
+        left: 0;
+        width: 100%;
+        background-color:whitesmoke;
+        flex-direction: column;
+        gap: 20px;
+        padding: 20px 0;
+        z-index: 999;
+    }
+    .header_unorderlist li {
+        margin-top: 20px;
+        text-align: center;
+    }
+    .header .menu-btn:checked ~ .header_unorderlist {
+        display: flex;
+    }
+    .header .menu-icon {
+        display: inline-block;
+        color: white;
+    }
+    .header-a{
+        color: whitesmoke;
+    }
+    .header_logos_image{
+        display:none;
+    }
+    .header_logo_image{
+        display: block;
+    }
+    .mini_header{
+        display: none;
+    }
+    .header_options_a{
+        color:black;
+    }
+    .header_anchor{
+        background-color:whitesmoke;
+		display: none;
+      
+    }
+    .header .menu-icon .navicon {
+        background:black;
+        display: block;
+        height: 2px;
+        position: relative;
+        transition: background 1s ease-out;
+        width: 18px;
+    }
+    .header .menu-icon .navicon:before,
+    .header .menu-icon .navicon:after {
+        background:black;
+        content: '';
+        display: block;
+        height: 100%;
+        position: absolute;
+        transition: all 1s ease-out;
+        width: 100%;
+    }
+    .circle_card_inner{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media (max-width:795px) {
+    .footer-inner{
+        display: grid;
+        grid-template-columns: repeat(2 , 1fr);
+        gap: 20px;
+    }
+    main{
+        width: 100%;
+    }
+    aside{
+        
+        position: absolute;
+        top:9%;
+        left:10px;
+        bottom: 0;
+        margin: 0 auto;
+     }
+    aside h4{
+        font-size: inherit;
+        margin-left: 40px;
+    }
+}
+@media (max-width:536px) {
+    .footer-inner{
+        display: grid;
+        grid-template-columns: repeat(1 , 1fr);
+        gap: 20px;
+    }
+    aside{
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-evenly;
+        z-index: 999;
+    }
+}
