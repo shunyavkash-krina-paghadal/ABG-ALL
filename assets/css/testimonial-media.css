@@ -1,46 +1,3 @@
-@media (max-width:759px) {
-	.two-col-section{
-		transform: translateY(0);
-	}
-	.header_unorderlist{
-		display: none;
-	}
-	.header_anchor{
-		display:block;
-	}
-}
-
-@media (max-width:670px) {
-	.two-col-inner{
-		display: grid;
-		grid-template-columns: repeat(1, 1fr);
-		padding: 30px 0 ;
-	}
-	
-}
-
-
-
-@media (max-width:834px) {
-   
-
-    /* NAVIGATION */
-
-    nav li{
-        display: none;
-    }
-    .process-inner{
-        display:grid;
-        grid-template-columns:repeat(2,1fr);
-        margin: auto;;
-        
-     }
-    .button{
-        margin-bottom: 30px;
-    }
-}
-
-
 
 @media (max-width:435px) {
     .btn{
@@ -116,20 +73,17 @@
 
 
 
-    
-		
-        
-	/* 123 */
-		
-	 .logo-light{
-		display: none;
-	 }
 	 .dark-logo{
 		display: block;
 	 }
 	 .navigation{
 		background-color: transparent;
 	 }
+
+
+     /* BANNER */
+
+     
 	.banner-img{
 		background:rgb(0,0,0,0.2);
 		 background-size:cover;
@@ -173,59 +127,32 @@
 
 }
 
-@media (max-width:960px) {
-    .our-story-inner{
-        display: grid;
-        grid-template-columns: repeat(1,1fr);
-        align-items: center;
-     }
-    
-	 .services-inner{
-		display: grid;
-		grid-template-columns: repeat(2,1fr);
-		gap: 20px
-	 }
 
-	 .footer-inner{
-		display: grid;
-		grid-template-columns:repeat(2 , 1fr);
-		gap: 20px
-	 }
-} 
+@media (max-width:567px) {
+    /* TOP-DIV */
+
+    .div{
+        display: none;
+    }
+}
 
 
+@media (max-width:734px) {
+    /* TOP-DIV */
 
- @media (max-width:574px) {
-    .process-inner{
-        display:grid;
-        grid-template-columns:repeat(1,1fr);
-        margin: auto;;
-        
-     }
-	 .services-inner{
-		display: grid;
-		grid-template-columns: repeat(1,1fr);
-	 }
-	 .footer-inner{
-		display: grid;
-		grid-template-columns:repeat(1 , 1fr);
-		gap: 20px
-	 }
-	.ri-menu-line{
-		color: red;
-	}
-	.div{
+    .header_unorderlist{
 		display: none;
-	   }
-    
-} 
+	}
+	.header_anchor{
+		display:block;
+	}
+}
 
-@media (max-width:320px) {
-	.two-content h3 {
-		color: whitesmoke;
-		padding-bottom: 20px;
-		font-size: 20px;
-		font-weight: 400;
-		text-align: center;
+@media (max-width:734px) {
+    /* TOP-DIV */
+
+    
+	.header_anchor{
+		display:none;
 	}
 }

@@ -1,0 +1,236 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --theme-color:#515A68;
+}
+.container{
+    max-width: 1720px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+body{
+    font-family: 'Tomorrow';
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+.d-none{
+   display: none;
+}
+ul,ol{
+    list-style: none;
+}
+.d-flex{
+    display: flex;
+}
+.align-center{
+    align-items: center;
+}
+.justify-between{
+    justify-content: space-between;
+}
+.text-center{
+    text-align: center;
+}
+
+/* HEADER */
+
+
+.div{
+   background-color:#515A68;
+   padding: 10px 0;
+}
+.call-icons li{
+   color: whitesmoke;
+   padding-left: 20px;
+}
+.icons-socia i{
+   color: whitesmoke;
+   margin:0 10px;
+   transition:all 0.3s ease-in-out;
+  
+}
+.icons-socia i:hover{
+   color:#BDE0D3;
+   transition:all 0.3s ease-in-out;
+
+}
+
+.header_inner{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   /* padding: 30px 0; */
+}
+.header{
+   position: sticky;
+   top: 0;
+   margin-right: 30px;
+  padding: 10px 0;
+  width: 100%;
+  z-index: 999;
+background-color: whitesmoke;
+}
+.header_unorderlist{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   list-style: none;
+   gap: 40px;
+}
+.header_logos_image{
+   display: none;
+}
+.header_options_a{
+   color: var(--theme-white);
+   font-size: 14px;
+   padding: 10px;
+}
+.header_anchor{
+   color: black;
+   font-weight: 500;
+   background-color:white;
+   border: 2px solid grey;
+   padding: 15px 30px;
+   border-radius: 25px;
+  
+}
+.header .menu-btn {
+   display: none;
+}
+.header .menu-btn:checked ~ .menu {
+   max-height: 240px;
+}
+.header .menu-btn:checked ~ .menu-icon .navicon {
+   background: transparent;
+}
+.header .menu-btn:checked ~ .menu-icon .navicon:before {
+   transform: rotate(-45deg);
+}
+.header .menu-btn:checked ~ .menu-icon .navicon:after {
+   transform: rotate(45deg);
+}
+.header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:before,
+.header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:after {
+   top: 0;
+}
+.header .menu-icon {
+   cursor: pointer;
+   display: inline-block;
+   float: right;
+   padding: 28px 20px;
+   position: relative;
+   user-select: none;
+   display: none;
+}
+.header .menu-icon .navicon {
+   background: var(--theme-black);
+   display: block;
+   height: 2px;
+   position: relative;
+   transition: background 1s ease-out;
+   width: 18px;
+}
+.header .menu-icon .navicon:before,
+.header .menu-icon .navicon:after {
+   background: var(--theme-black);
+   content: '';
+   display: block;
+   height: 100%;
+   position: absolute;
+   transition: all 1s ease-out;
+   width: 100%;
+}
+.header .menu-icon .navicon:before {
+   top: 5px;
+}
+.header .menu-icon .navicon:after {
+   top: -5px;
+}
+
+/* BANNER */
+
+.btn{
+    border: 2px solid rgb(184, 188, 190);
+    padding: 15px 25px;
+    border-radius:25px;
+    color:black;
+    margin-left: 30px;
+    transition: all 0.4s ease-in-out;
+}
+.navigation{
+   padding: 10px 0;
+ 
+}
+.btn:hover{
+    background-color: white;
+    color: black;
+}
+.banner{
+  
+    position: relative;
+    height: 100vh;
+    display:block;
+    min-height: fit-content;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+   
+}
+.banner-img{
+   position: absolute;
+   height:100%;
+
+}
+nav li a{
+    color: black;
+    font-weight: 400;
+    padding:0 10px;
+    
+}
+.banner-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top:50%;
+    left:50%;
+    margin: auto;
+    transform: translate(-50%,-50%);
+    
+}
+.banner-content h1{
+    color: aliceblue;
+    font-size: 60px;
+    font-weight: 500;
+    padding-bottom: 20px;
+}
+.banner-content p{
+    color: rgb(246, 241, 241);
+    word-spacing: 7px;
+    padding-bottom: 60px;
+}
+.btn-1{
+   color: #000;
+   margin-right: 20px;
+   background-color: #BDE0D3;
+   padding: 17px 32px;
+   border-radius: 25px;
+}
+.btn-2{
+    color: whitesmoke;
+    margin-right: 20px;
+    border: 2px solid rgb(184, 188, 190);
+    padding: 17px 32px;
+    border-radius: 25px;
+    transition: all 0.4s ease-in-out;
+ }
+ .btn-2:hover{
+    background-color: #BDE0D3;
+    color: #000;
+    transition: all 0.4s ease-in-out;
+ }

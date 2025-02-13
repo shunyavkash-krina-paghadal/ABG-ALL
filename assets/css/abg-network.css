@@ -39,6 +39,27 @@ ul,ol{
 
 /* HEADER */
 
+
+.div{
+   background-color:#515A68;
+   padding: 10px 0;
+}
+.call-icons li{
+   color: whitesmoke;
+   padding-left: 20px;
+}
+.icons-socia i{
+   color: whitesmoke;
+   margin:0 10px;
+   transition:all 0.3s ease-in-out;
+  
+}
+.icons-socia i:hover{
+   color:#BDE0D3;
+   transition:all 0.3s ease-in-out;
+
+}
+
 .header_inner{
    display: flex;
    justify-content: space-between;
@@ -46,11 +67,13 @@ ul,ol{
    /* padding: 30px 0; */
 }
 .header{
-   position: fixed ;
-   width: 100%;
-   z-index: 999;
-   padding: 10px 0;
-   background-color: whitesmoke;
+   position: sticky;
+   top: 0;
+   margin-right: 30px;
+  padding: 10px 0;
+  width: 100%;
+  z-index: 999;
+background-color: whitesmoke;
 }
 .header_unorderlist{
    display: flex;
@@ -496,6 +519,7 @@ nav li a{
    overflow: hidden;
   
 }
+
 .services-items .services-img img:hover{
    filter: contrast(50%);
 }
@@ -533,6 +557,7 @@ footer{
    font-weight: 400;
  
 }
+
 .footer-items li{
    padding-bottom: 30px;
 }
