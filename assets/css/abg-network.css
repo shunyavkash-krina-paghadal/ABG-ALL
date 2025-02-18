@@ -5,6 +5,7 @@
 }
 :root{
     --theme-color:#515A68;
+    --theme-green:#BDE0D3;
 }
 .container{
     max-width: 1720px;
@@ -276,13 +277,11 @@ nav li a{
  .two-content h4{
     color: whitesmoke;
     padding-bottom: 20px;
-
     font-weight: 400;
  }
  .ri-arrow-right-line{
     background-color: #BDE0D3;
     padding: 9px;
-
     border-radius: 50%;
     margin-left: 10px;
     color: black;
