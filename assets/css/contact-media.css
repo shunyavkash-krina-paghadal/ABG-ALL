@@ -1,47 +1,103 @@
-@media (max-width:759px) {
-	.two-col-section{
-		transform: translateY(0);
-	}
-	.header_unorderlist{
-		display: none;
-	}
-	.header_anchor{
-		display:block;
-	}
+  @media (max-width: 600px) {
+            .form-grid {
+                grid-template-columns: 1fr;
+            }
+            .full-width {
+                grid-column: span 1;
+            }
 }
 
-@media (max-width:670px) {
-	.two-col-inner{
-		display: grid;
-		grid-template-columns: repeat(1, 1fr);
-		padding: 30px 0 ;
-	}
-	
+@media (max-width:935px) {
+    .process-inner{
+        display: grid;
+        grid-template-columns: repeat(2 , 1fr);
+        gap: 20px;
+    }
+     .footer-inner{
+        display: grid;
+        grid-template-columns: repeat(2 , 1fr);
+        gap: 20px;
+        text-align: left;
+    }
 }
 
+@media (max-width:639px) {
+    .process-inner{
+        display: grid;
+        grid-template-columns: repeat(1 , 1fr);
+        gap: 20px;
+        text-align: left;
+    }
+    .pro-title{
+        text-align: left;
+    }
+    .footer-inner{
+        display: grid;
+        grid-template-columns: repeat(1 , 1fr);
+        gap: 20px;
+        text-align: left;
+    }
 
+}
 
-@media (max-width:834px) {
-   
-
-    /* NAVIGATION */
-
-    nav li{
+@media (max-width:726px) {
+    .btn-1{
+        margin-top: 20px;
+    }
+    .header_unorderlist li{
         display: none;
     }
-    .process-inner{
-        display:grid;
-        grid-template-columns:repeat(2,1fr);
-        margin: auto;;
-        
-     }
-    .button{
-        margin-bottom: 30px;
-    }
+}
+@media (max-width:594px) {
+   .div{
+    display: none;
+   }
+}
+@media (max-width:381px) {
+    .title h1 {
+    text-align: left;
+    font-size: 25.3px;
+    color: #515A68;
+    font-weight: 500;
+    word-spacing: 4px;
+    letter-spacing: 4px;
+}
+.que-items ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+
+}
+.que-items li{
+       padding: 20px 0;
+}
+
+.form-title h2 {
+    text-align: left;
+    font-size: 25px;
+    color: #515A68;
+    font-weight: 400;
+    word-spacing: 2px;
+    letter-spacing: 2px;
+}
+.btn-1 {
+    margin: 19px 30px;
+    color: whitesmoke;
+    background-color: #515A68;
+    padding: 10px 17px;
+    border-radius: 20px;
+    font-size: 15px;
+}
 }
 
 
-
+@media (max-width:320px) {
+   .que-items{
+    margin: 0;
+   }
+}
 @media (max-width:435px) {
     .btn{
         display: none;
@@ -61,6 +117,7 @@
     .header_unorderlist li {
         margin-top: 20px;
         text-align: center;
+        display: block;
     }
     .header .menu-btn:checked ~ .header_unorderlist {
         display: flex;
@@ -87,7 +144,7 @@
     .header_anchor{
         background-color:whitesmoke;
 		display: none;
-      
+
     }
     .header .menu-icon .navicon {
         background:black;
@@ -123,9 +180,9 @@
 		display: none;
 	}
 
-    
-		
-        
+
+
+
 	/* 123 */
 	#banner.img{
 		order: 2;
@@ -148,10 +205,10 @@
 		background:rgb(0,0,0,0.2);
 		 background-size:cover;
 		padding:0;
-		
+
 		position: static;
 		background-blend-mode:darken;
-	
+
 	 }
 	 .banner-content {
 		display: flex;
@@ -162,7 +219,7 @@
 		left: 0;
 		margin: auto;
 		transform: translate(0,0);
-	
+
 	 }
 	 .banner-content h1{
 		color: #000;
@@ -179,67 +236,10 @@
 	 .btn-2{
 		color: #000;
 	 }
-	 .banner{	
-	
+	 .banner{
+
 		height: 100%;
 	}
-   
-
-}
-
-@media (max-width:960px) {
-    .our-story-inner{
-        display: grid;
-        grid-template-columns: repeat(1,1fr);
-        align-items: center;
-     }
-    
-	 .services-inner{
-		display: grid;
-		grid-template-columns: repeat(2,1fr);
-		gap: 20px
-	 }
-
-	 .footer-inner{
-		display: grid;
-		grid-template-columns:repeat(2 , 1fr);
-		gap: 20px
-	 }
-} 
 
 
-
- @media (max-width:574px) {
-    .process-inner{
-        display:grid;
-        grid-template-columns:repeat(1,1fr);
-        margin: auto;;
-        
-     }
-	 .services-inner{
-		display: grid;
-		grid-template-columns: repeat(1,1fr);
-	 }
-	 .footer-inner{
-		display: grid;
-		grid-template-columns:repeat(1 , 1fr);
-		gap: 20px
-	 }
-	.ri-menu-line{
-		color: red;
-	}
-	.div{
-		display: none;
-	   }
-    
-} 
-
-@media (max-width:320px) {
-	.two-content h3 {
-		color: whitesmoke;
-		padding-bottom: 20px;
-		font-size: 20px;
-		font-weight: 400;
-		text-align: center;
-	}
 }

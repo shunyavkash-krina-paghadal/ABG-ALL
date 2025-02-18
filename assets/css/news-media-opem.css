@@ -1,0 +1,239 @@
+@media(max-width:862px){
+    .footer-inner{
+        display: grid;
+        grid-template-columns: repeat(2fr , 1fr);
+        gap:20px;
+    }
+    .services-inner {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+}
+
+
+ @media (max-width:574px) {
+    .process-inner{
+        display: grid;
+        grid-template-columns: repeat(1 , 1fr)!important;
+        gap: 20px;
+        text-align: left;
+    }
+    .pro-title{
+        text-align: left;
+    }
+    .footer-inner{
+        display: grid;
+        grid-template-columns: repeat(1 , 1fr)!important;
+        gap: 20px;
+        text-align: left;
+    }
+
+}
+
+@media (max-width:935px) {
+    .process-inner{
+        display: grid;
+        grid-template-columns: repeat(2 , 1fr);
+        gap: 20px;
+    }
+     .footer-inner{
+        display: grid;
+        grid-template-columns: repeat(2 , 1fr);
+        gap: 20px;
+        text-align: left;
+    }
+}
+
+
+@media (max-width:726px) {
+    .btn-1{
+        margin-top: 20px;
+    }
+    .header_unorderlist li{
+        display: none;
+    }
+}
+@media (max-width:594px) {
+   .div{
+    display: none;
+   }
+     .services-inner {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px;
+}
+}
+
+
+
+
+@media (max-width:435px) {
+    .btn{
+        display: none;
+    }
+	.header_unorderlist {
+        display: none;
+        position: absolute;
+        top: 117px;
+        left: 0;
+        width: 100%;
+        background-color:whitesmoke;
+        flex-direction: column;
+        gap: 20px;
+        padding: 20px 0;
+        z-index: 999;
+    }
+    .header_unorderlist li {
+        margin-top: 20px;
+        text-align: center;
+        display: block;
+    }
+    .header .menu-btn:checked ~ .header_unorderlist {
+        display: flex;
+    }
+    .header .menu-icon {
+        display: inline-block;
+        color: white;
+    }
+    .header-a{
+        color: whitesmoke;
+    }
+    .header_logos_image{
+        display:none;
+    }
+    .header_logo_image{
+        display: block;
+    }
+    .mini_header{
+        display: none;
+    }
+    .header_options_a{
+        color:black;
+    }
+    .header_anchor{
+        background-color:whitesmoke;
+		display: none;
+
+    }
+    .header .menu-icon .navicon {
+        background:black;
+        display: block;
+        height: 2px;
+        position: relative;
+        transition: background 1s ease-out;
+        width: 18px;
+    }
+    .header .menu-icon .navicon:before,
+    .header .menu-icon .navicon:after {
+        background:black;
+        content: '';
+        display: block;
+        height: 100%;
+        position: absolute;
+        transition: all 1s ease-out;
+        width: 100%;
+    }
+    .circle_card_inner{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        align-items: center;
+        justify-content: center;
+    }
+    header{
+		background-color: azure;
+	}
+	.d-logo{
+		display: block;
+	}
+	.logo{
+		display: none;
+	}
+	 .navigation{
+		background-color: transparent;
+	 }
+
+
+
+
+
+}
+
+@media (max-width: 768px) {
+    .container-1 {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+
+    .sidebar {
+        order: -1; /* Move sidebar to the top */
+    }
+
+    .icons {
+        flex-direction: row;
+    }
+}
+
+@media (max-width: 1260px) {
+   .image-container  img{
+    width: 600px;
+   }
+}
+
+@media (max-width: 1093px) {
+   .image-container img{
+    width: 600px;
+   }
+}
+@media (max-width: 1060px) {
+
+    aside{
+        display: none;
+    }
+    main{
+        width: 100%;
+    }
+    .social-share {
+    display: none;
+}
+.back-link {
+   display: none;
+}
+    .container-11 {
+    display: grid;
+    grid-template-columns:repeat(1 , 1fr);
+    gap: 20px;
+    width:100%;
+    background: white;
+    padding: 0 30px;
+
+}
+.image-container img{
+    width: 100%;
+}
+
+}
+@media (max-width:320px) {
+    h1 {
+    font-size: 29px;
+    color: #222;
+    font-weight: 500;
+    padding-bottom: 20px;
+}
+.col-items h2 {
+
+    font-size: 25px;
+
+}
+.content-swiper h3 {
+    color: whitesmoke;
+    font-weight: 400;
+    padding: 20px 0;
+    font-size: 18px;
+    max-width: 800px;
+}
+.services-title{
+    display: flex;
+    flex-direction: column;
+}
+}

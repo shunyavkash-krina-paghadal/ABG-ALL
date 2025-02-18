@@ -1,23 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Testimonial</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" type="text/css"/>
+    <title>contact</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" type="text/css" />
     <link rel="stylesheet" href="../../assets/fonts/fonts/remixicon.css" type="text/css">
     <link rel="stylesheet" href="../../assets/fonts/tom-fonts/stylesheet.css" type="text/css">
-    <link rel="stylesheet" href="../../assets/css/testimonial.css" type="text/css">
-    <link rel="stylesheet" href="../../assets/css/testimonial-media.css" type="text/css">
+    <link rel="stylesheet" href="../../assets/css/contact.css" type="text/css">
+    <link rel="stylesheet" href="../../assets/css/contact-media.css" type="text/css">
 </head>
+
 <body>
 
-
-<!-- HEADER    -->
+    <!-- HEADER -->
 <div class="div">
     <div class="container d-flex align-center justify-between">
         <div class="call-icons d-flex">
-            <img src="../../assets/img/icons/call.svg" title="call" alt="call"/>
+            <img src="../../assets/img/icons/call.svg" title="call" alt="call" />
             <ul>
                 <li>01234 567890 - Mon-Fri 9am to 6.30pm</li>
             </ul>
@@ -30,101 +32,122 @@
         </div>
     </div>
 </div>
+    <header class="header">
+        <div class="container">
+            <div class="header_inner">
+                <div class="header_left">
+                    <a href="#" class="header_logo_image">
+                        <img src="../../assets/img/icons/dark-logo.png" alt="images">
+                    </a>
 
-<!-- HEADER -->
+                </div>
+                <div class="header_right d-flex">
+                    <input class="menu-btn" type="checkbox" id="menu-btn" />
+                    <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+                    <ul class="header_unorderlist">
+                        <li>
+                            <a href="#" class="header_options_a">Who We Are</a>
+                        </li>
+                        <li>
+                            <a href="#" class="header_options_a">Testimonials</a>
+                        </li>
+                        <li>
+                            <a href="#" class="header_options_a">Nes & Araticals</a>
+                        </li>
 
-<header class="header">
-    <div class="container">
-        <div class="header_inner">
-            <div class="header_left">
-                <a href="#" class="header_logo_image">
-                <img src="../../assets/img/icons/dark-logo.png" alt="images">
-            </a>
-
-            </div>
-            <div class="header_right d-flex">
-                <input class="menu-btn" type="checkbox" id="menu-btn" />
-               <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
-                <ul class="header_unorderlist">
-                     <li>
-                        <a href="#" class="header_options_a">Who We Are</a>
-                     </li>
-                     <li>
-                        <a href="#" class="header_options_a">Testimonials</a>
-                     </li>
-                     <li>
-                        <a href="#" class="header_options_a">Nes & Araticals</a>
-                     </li>
-
-                </ul>
-                <a href="javascript:void(0)" class="header_options_a header_anchor">
-                    Get In Touch
-                </a>
+                    </ul>
+                    <a href="javascript:void(0)" class="header_options_a header_anchor">
+                        Get In Touch
+                    </a>
+                </div>
             </div>
         </div>
-    </div>
-</header>
+    </header>
 
-<!-- BANNER -->
 
-<section class="hero-section">
+<!-- GOT A QUESTIONS -->
+
+<section class="que">
     <div class="container">
-         <div class="title-hero">
-            <h1>Customer Testimonials</h1>
-            <p>Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aliquam feugiat aliquam tempor. Nam varius dui urna, a congue</p>
+         <div class="title">
+             <h1>Got A Question?</h1>
          </div>
-         <div class="inner-hero">
-             <div class="heros-sec">
-                <div class="hero-items d-flex align-center">
-                    <div class="img-hero">
-                        <img src="../../assets/img/background/test-1.png" alt="test-1" />
-                    </div>
-                    <div class="hero-content">
-                        <h2>Buying a franchise has changed everything. Everything runs so smoothly now. I can’t thank ABG enough for their services</h2>
-                        <h5>LIAM MALIK, FRANCHISE OWNER, LONDON</h5>
-
-                    </div>
-                    <div class="que-img">
-                        <img src="../../assets/img/background/“.png" width="100%" />
-                    </div>
-                </div>
+         <div class="que-inner">
+             <div class="que-items">
+                 <ul class="d-flex ">
+                    <li>
+                        <a href="javascript:void(0)">
+                            <i class="ri-phone-fill"></i>
+                            <h4>01234 567890</h4>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0)">
+                            <i class="ri-map-pin-5-fill"></i>
+                            <h4 class="add">Address Line 1 Postcode</h4>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0)">
+                            <i class="ri-mail-fill"></i>
+                            <h4>hello@abg.com</h4>
+                        </a>
+                    </li>
+                 </ul>
              </div>
-
-            <div class="heros-sec">
-                <div class="hero-items d-flex align-center">
-                    <div class="img-hero">
-                        <img src="../../assets/img/background/test-2.png" alt="test-2" />
-                    </div>
-                    <div class="hero-content">
-                        <h2>Buying a franchise has changed everything. Everything runs so smoothly now. I can’t thank ABG enough for their services</h2>
-                        <h5>SURANNE JAMILLE, FRANCHISE OWNER, LONDON</h5>
-
-                    </div>
-                    <div class="que-img">
-                        <img src="../../assets/img/background/“.png" width="100%" />
-                    </div>
-                </div>
-            </div>
-
-            <div class="heros-sec">
-                <div class="hero-items d-flex align-center">
-                    <div class="img-hero">
-                        <img src="../../assets/img/background/test-3.png" alt="test-3" />
-                    </div>
-                    <div class="hero-content">
-                        <h2>Buying a franchise has changed everything. Everything runs so smoothly now. I can’t thank ABG enough for their services</h2>
-                        <h5>BEN LOVELLE, FRANCHISE OWNER, BIRMINGHAM</h5>
-
-                    </div>
-                    <div class="que-img">
-                        <img src="../../assets/img/background/“.png" width="100%" />
-                    </div>
-                </div>
-            </div>
+         </div>
+         <div class="get">
+            <a href="javascript:void(0)">GET DIRECATION</a>
          </div>
     </div>
 </section>
 
+
+<!-- FORM -->
+
+<section class="form">
+    <div class="container">
+         <div class="form-title">
+           <h2>Complete our form</h2>
+         </div>
+         <div class="buttons">
+            <a href="javascript:void(0)" class="btn-1">General Enquiry</a>
+            <a href="javascript:void(0)" class="btn-1-1">Interested in a franchise</a>
+            <a href="javascript:void(0)"  class="btn-1">I’d like Support</a>
+         </div>
+        <form>
+            <div class="form-grid">
+                <input type="text" placeholder="Name..." class="inputs">
+                <input type="email" placeholder="Email..." class="inputs">
+                <input type="tel" placeholder="Number..." class="inputs">
+                <input type="text" placeholder="Subject..." class="inputs">
+                <div class="full-width">
+                    <input type="text" placeholder="Your Location..." class="inputs">
+                </div>
+                <div class="full-width">
+                    <textarea placeholder="Message..." rows="4"></textarea>
+                </div>
+            </div>
+          <div class="button-container">
+            <a type="submit" class="btn-10">Submit Form</a>
+          </div>
+
+        </form>
+    </div>
+</section>
+
+
+<!-- MAP -->
+
+<div class="mapouter">
+    <div class="gmap_canvas">
+        <iframe class="gmap_iframe" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"
+          src="https://maps.google.com/maps?width=1675&amp;height=400&amp;hl=en&amp;q=University of Oxford&amp;t=&amp;z=11&amp;ie=UTF8&amp;iwloc=B&amp;output=embed">
+        </iframe>
+        <a href="https://sprunkin.com/">Sprunki Game</a>
+    </div>
+
+</div>
 
 <!-- THE-PROCESS -->
 
@@ -174,22 +197,11 @@
         </div>
 
     </div>
-    <div class="geti">
-        <a href="javascript:void(0)" class="get">GET IN TOUCH</a>
+    <div class="getiu">
+        <a href="javascript:void(0)" class="geti">GET IN TOUCH</a>
     </div>
 </section>
 
-<!-- LEARN MORE -->
-
-<section class="learn">
-   <div class="container">
-       <div class="title-learn text-center">
-          <h3>Want to learn more?</h3>
-          <p>Suspendisse nec mi tempor, commodo est quis, aliquet felis. Sed et consectetur dolor. Praesent eget viverra libero</p>
-          <a href="javascript:void(0)">GET  IN TOUCH</a>
-       </div>
-   </div>
-</section>
 
 <!-- LOGOS ALL -->
 
@@ -220,7 +232,6 @@
 
 
 <!-- FOOTER -->
-<!-- <img src="../../assets/img/background/s.png" class="s-img" /> -->
 
 <footer class="footers">
 
@@ -272,14 +283,15 @@
 </footer>
 
 
-
-
+<script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js" type="text/javascript"></script>
 <script src="https://code.jquery.com/jquery-3.7.1.min.js" type="text/javascript"></script>
 <script>
-     $(".toggle").click(function () {
-            $("nav").slideToggle();
-        });
+    $(".toggle").click(function () {
+        $("nav").slideToggle();
+    });
+
+
 </script>
 </body>
 </html>

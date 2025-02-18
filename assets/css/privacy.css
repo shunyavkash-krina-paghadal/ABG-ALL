@@ -41,7 +41,18 @@ main{
 }
 
 /* HEADER */
-
+.div{
+   background-color: #515A68;
+   padding: 10px 0;
+}
+.div li{
+   color: white;
+   margin-left: 10px;
+}
+.icons-socia  i{
+   color:white;
+   padding: 0 10px;
+}
 .header_inner{
     display: flex;
     justify-content: space-between;
@@ -49,7 +60,7 @@ main{
     /* padding: 30px 0; */
  }
  .header{
-   
+
     padding: 10px 0;
     background-color: whitesmoke;
  }
@@ -75,7 +86,7 @@ main{
     border: 2px solid grey;
     padding: 15px 30px;
     border-radius: 25px;
-   
+
  }
  .header .menu-btn {
     display: none;
@@ -130,7 +141,7 @@ main{
     top: -5px;
  }
 
- 
+
 
  /* PRIAVCY-POLICY */
 
@@ -165,7 +176,7 @@ aside h4{
 }
 .policy{
     padding: 80px 0;
-   
+
 }
 .policy-title h2{
     color:#2C3646;
@@ -190,7 +201,7 @@ aside h4{
 }
 .policy-title{
     border-bottom: 2px solid rgba(128, 128, 128, 0.345);
-  
+
 }
 .sub,.sub-1{
     padding-top: 150px;
@@ -206,11 +217,11 @@ aside h4{
  .logos-all img{
     padding: 0 50px;
  }
- 
- 
+
+
  /* FOOTER */
- 
- 
+
+
  footer{
     background-color:#515A68;
     padding: 30px 0;
@@ -228,7 +239,7 @@ aside h4{
  .footer-items h5{
     color: whitesmoke;
     font-weight: 400;
-  
+
  }
  .footer-items li{
     padding-bottom: 30px;
@@ -244,12 +255,12 @@ aside h4{
     font-size: 18px;
     max-width: 200px;
     line-height: 29px;
- 
+
  }
  .rich{
     font-size: 16px;
  }
- 
+
  .sign-up h5{
     color:white;
     font-weight: 400;
@@ -285,7 +296,7 @@ aside h4{
     padding: 10px;
     border-radius :50%;
     transition: 0.3s all ease-in-out;
- 
+
  }
  .icons-social{
     margin-top: 20px;
@@ -296,5 +307,4 @@ aside h4{
     color: #000;
     transition: 0.3s all ease-in-out;
  }
- 
- 
+
