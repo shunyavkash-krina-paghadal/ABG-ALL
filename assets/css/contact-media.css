@@ -19,6 +19,12 @@
         gap: 20px;
         text-align: left;
     }
+    .shape-img {
+    position: absolute;
+    bottom:0;
+    top: 0;
+    object-fit: cover;
+}
 }
 
 @media (max-width:639px) {
@@ -46,6 +52,17 @@
     }
     .header_unorderlist li{
         display: none;
+    }
+    .btn-primary{
+        margin-bottom: 30px;
+    }
+    .shapes-img{
+        display: none;
+    }
+}
+@media (max-width:521px) {
+    .btn-secondary{
+        margin-bottom: 30px;
     }
 }
 @media (max-width:594px) {

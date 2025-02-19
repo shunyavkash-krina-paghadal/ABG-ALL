@@ -62,7 +62,7 @@ main{
  .header{
 
     padding: 10px 0;
-    background-color: whitesmoke;
+    /* background-color: whitesmoke; */
  }
  .header_unorderlist{
     display: flex;
@@ -144,7 +144,13 @@ main{
 
 /* GET A QUESTIONS */
 
-
+.Group-img{
+ position: absolute;
+top: 0;
+z-index: -1;
+/* height:900px; */
+right:0;
+}
 .title{
     padding: 40px 0;
 }
@@ -213,11 +219,20 @@ main{
     word-spacing: 2px;
     letter-spacing: 2px;
   }
+
+  .que-items a{
+    background-color: #BDE0D3;
+   color: black;
+   padding:20px;
+   border-radius: 50%;
+   margin-bottom: 20px;
+
+  }
   .buttons{
     text-align: center;
     margin: 50px 0;
   }
-  .btn-1-1{
+  .btn-primary{
     margin:0 30px;
     color: black;
     background-color: #BDE0D3;
@@ -225,7 +240,7 @@ main{
     border-radius: 20px;
     font-size: 15px;
   }
-    .btn-1{
+    .btn-secondary{
     margin:0 30px;
     color: whitesmoke;
     background-color: #515A68;
@@ -256,7 +271,7 @@ main{
             grid-column: span 2;
         }
 
-        .btn-10 {
+        .btn-sucsess {
          display: inline-block;
          border: none;
          cursor: pointer;
@@ -266,6 +281,7 @@ main{
          padding: 15px 37px;
          border-radius: 25px;
          font-size: 15px;
+         position: inherit;
         }
 .button-container {
     display: flex;
@@ -375,13 +391,13 @@ button:hover {
     right: 3%;
     bottom: 6%;
  }
- .getiu{
+ .get-in-btn{
     text-align: center;
     padding: 30px 0;
 
 
  }
- .geti{
+ .get-btn{
     background-color: #515A68;
     padding: 15px 25px;
     color: whitesmoke;
@@ -497,6 +513,13 @@ button:hover{
    color: #000;
    transition: 0.3s all ease-in-out;
 }
+ .shape-img{
+    position: absolute;
+    right:30%;
+    bottom: 0;
+    object-fit:cover;
+ }
+
 
 
 

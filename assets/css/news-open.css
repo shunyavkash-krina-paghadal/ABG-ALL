@@ -165,7 +165,12 @@ main{
     justify-content: space-around;
     text-align: center;
 }
+.circle-img{
+   position: absolute;
+   top: 0;
+   right: 0;
 
+}
 .back-link {
     text-decoration: none;
     color: #555;

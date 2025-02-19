@@ -144,14 +144,6 @@ main{
 
 
  /* PRIAVCY-POLICY */
-
- main{
-    background-image: url(../../assets/img/icons/Path\ 12143.png);
-    background-repeat: no-repeat;
-    top: 0;
-    left: 0;
-    background-attachment: fixed;
-}
 aside {
     position: sticky;
     top: 0;
@@ -160,6 +152,12 @@ aside {
 }
 .privacy{
     align-items: flex-start;
+}
+.circle-img{
+   position: fixed;
+   top:0;
+   right:0;
+
 }
 aside h3{
     color: #2C3646;
@@ -229,6 +227,7 @@ aside h4{
  .footer-inner{
     display: grid;
     grid-template-columns:repeat(3 , 1fr);
+    position: relative;
  }
  .footer-items h3{
     font-size: 40px;
@@ -306,5 +305,12 @@ aside h4{
     background-color: #BDE0D3;
     color: #000;
     transition: 0.3s all ease-in-out;
+ }
+  .shape-img{
+    position: absolute;
+    right:20%;
+    bottom: -10%;
+    object-fit:cover;
+    /* background-color: red; */
  }
 
