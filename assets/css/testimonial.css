@@ -302,21 +302,30 @@ ul,ol{
     right: 3%;
     bottom: 6%;
  }
- .geti{
+ .geti , primary-btn{
     text-align: center;
     padding: 30px 0;
 
 
  }
- .get{
+ .get {
     background-color: #515A68;
     padding: 15px 25px;
     color: whitesmoke;
+    display: inline-block;
     border-radius:25px;
     transition:all 0.3s ease-in-out;
  }
-
-
+.primary-btn a{
+   color: black;
+}
+.primary-btn{
+   background-color: #BDE0D3;
+    padding: 15px 25px;
+    display: inline-block;
+    border-radius:25px;
+    transition:all 0.3s ease-in-out;
+}
  /* LEARN */
 
  .title-learn h3{
@@ -328,6 +337,13 @@ ul,ol{
    font-size: 16px;
    font-weight: 300;
    padding-bottom: 20px;
+   max-width: 600px;
+   text-align: center;
+   margin: auto;
+   line-height:30px;
+   word-spacing: 3px;
+   color:gray;
+   font-weight:300;
  }
 
 /* LOGOS-ALL */
@@ -343,100 +359,108 @@ ul,ol{
 /* FOOTER */
 
 
-.footers{
-   background-color:#515A68;
-   padding: 33px 0;
-   position: relative;
+footer{
+    background-color:var(--theme-color);
+    padding: 30px 0;
+ }
+ .shape-img{
+    position: absolute;
+    right:30%;
+    bottom: -10%;
+    object-fit:cover;
+ }
 
-}
-.footer-inner{
-   display: grid;
-   grid-template-columns:repeat(3 , 1fr);
+ .footer-inner{
+    display:flex;
+    justify-content: space-between;
+    position: relative;
+ }
+ .mapin{
+    margin-left: 80px;
+ }
+ .footer-items h3{
+    font-size: 40px;
+    font-weight: 500;
+    color: whitesmoke;
+    padding-bottom: 30px;
+ }
+ .footer-items h5{
+    color: whitesmoke;
+    font-weight: 400;
 
-}
-.s-img{
-  position: absolute;
-  top: 458.3%;
-  right: 30%;
-  z-index: 999;
-}
-.footer-items h3{
-   font-size: 40px;
-   font-weight: 500;
-   color: whitesmoke;
-   padding-bottom: 30px;
-}
-.footer-items h5{
-   color: whitesmoke;
-   font-weight: 400;
+ }
+ .footer-items li{
+    padding-bottom: 30px;
+ }
+ .ri-phone-fill ,.ri-mail-unread-fill ,.ri-map-pin-2-fill{
+ color: #515A68;
+ background-color: #BDE0D3;
+ padding: 10px;
+ border-radius: 50%;
+ margin-right: 14px;
+ }
+ .richtext-2{
+    font-size: 18px;
+    max-width: 200px;
+    line-height: 29px;
 
+ }
+.aerro-icon{
+   padding: 0;
 }
+ .rich{
+    font-size: 16px;
+ }
+.footer-items .ri-arrow-right-line{
+   padding: 0;
+   margin: 0;
+}
+ .sign-up h5{
+    color: var(--theme-white);
+    font-weight: 400;
+    font-size: 30px;
+ }
+ form{
+    position: relative;
+ }
+ form input{
+    background-color:whitesmoke;
+    border: none;
+    outline: none;
+    padding: 16px 99px 16px 10px;
+    margin:20px 0;
+    border-radius: 25px;
+    width: 100%;
+ }
+ form button{
+    position: absolute;
+    right: 1%;
+    border: none;
+    padding: 10px 9px;
+    border-radius: 50%;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #BDE0D3;
+ }
+ .icons-social i{
+    color: whitesmoke;
+    margin-right: 10px;
+    font-size: 19px;
+    background-color: #a5a5a68a;
+    padding: 10px;
+    border-radius :50%;
+    transition: 0.3s all ease-in-out;
 
-.footer-items li{
-   padding-bottom: 30px;
-}
-.ri-phone-fill ,.ri-mail-unread-fill ,.ri-map-pin-2-fill{
-color: #515A68;
-background-color: #BDE0D3;
-padding: 10px;
-border-radius: 50%;
-margin-right: 14px;
-}
-.richtext{
-   font-size: 18px;
-   max-width: 200px;
-   line-height: 29px;
-
-}
-.rich{
-   font-size: 16px;
-}
-
-.sign-up h5{
-   color: var(--theme-white);
-   font-weight: 400;
-   font-size: 30px;
-}
-form{
-   position: relative;
-}
-form input{
-   background-color:whitesmoke;
-   border: none;
-   outline: none;
-   padding: 16px 99px 16px 10px;
-   margin:20px 0;
-   border-radius: 25px;
-   width: 100%;
-}
-form button{
-   position: absolute;
-   right: 1%;
-   border: none;
-   padding: 10px 9px;
-   border-radius: 50%;
-   top: 50%;
-   transform: translateY(-50%);
-}
-.icons-social i{
-   color: whitesmoke;
-   margin-right: 10px;
-   font-size: 19px;
-   background-color: #a5a5a68a;
-   padding: 10px;
-   border-radius :50%;
-   transition: 0.3s all ease-in-out;
-
-}
-.icons-social{
-   margin-top: 20px;
-   text-align: center;
-}
-.icons-social i:hover{
-   background-color: #BDE0D3;
-   color: #000;
-   transition: 0.3s all ease-in-out;
-}
+ }
+ .icons-social{
+    margin-top: 20px;
+    text-align: center;
+ }
+ .icons-social i:hover{
+    background-color: #BDE0D3;
+    color: #000;
+    transition: 0.3s all ease-in-out;
+ }
 
 
 

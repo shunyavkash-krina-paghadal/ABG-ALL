@@ -3,6 +3,11 @@
     padding: 0;
     box-sizing: border-box;
 }
+:root{
+    --theme-color:#515A68;
+    --theme-green:#BDE0D3;
+    --theme-white:#fff;
+}
 .container{
     max-width: 1720px;
     padding: 0 20px;
@@ -62,7 +67,7 @@ main{
  .header{
 
     padding: 10px 0;
-    background-color: whitesmoke;
+    /* background-color: whitesmoke; */
  }
  .header_unorderlist{
     display: flex;
@@ -75,7 +80,7 @@ main{
     display: none;
  }
  .header_options_a{
-    color: var(--theme-white);
+    color:black;
     font-size: 14px;
     padding: 10px;
  }
@@ -145,7 +150,7 @@ main{
 
  /* HERO */
 
-.container-11 {
+/* .container-11 {
     display: grid;
     grid-template-columns: 270px 1fr;
         gap: 20px;
@@ -155,8 +160,10 @@ main{
         /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
         border-radius: 10px;
         /* margin-top: 20px; */
+} */
+.plan-inner{
+   display: flex;
 }
-
 /* Sidebar */
 .sidebar {
     display: flex;
@@ -227,6 +234,8 @@ p , .col-items p {
     color: #555;
     line-height: 33px;
     padding: 20px 0;
+    max-width: 800px;
+    text-align: left;
 }
 .col-items h2{
     padding:40px 0 0 0;
@@ -423,103 +432,112 @@ p , .col-items p {
 /* FOOTER */
 
 
-.footers{
-   background-color:#515A68;
-   padding: 33px 0;
-   position: relative;
 
-}
-.footer-inner{
-   display: grid;
-   grid-template-columns:repeat(3 , 1fr);
-
-}
-
-.footer-items h3{
-   font-size: 40px;
-   font-weight: 500;
-   color: whitesmoke;
-   padding-bottom: 30px;
-}
-.footer-items h5{
-   color: whitesmoke;
-   font-weight: 400;
-
-}
-
-.footer-items li{
-   padding-bottom: 30px;
-}
-.ri-phone-fill ,.ri-mail-unread-fill ,.ri-map-pin-2-fill{
-color: #515A68;
-background-color: #BDE0D3;
-padding: 10px;
-border-radius: 50%;
-margin-right: 14px;
-}
-.richtext{
-   font-size: 18px;
-   max-width: 200px;
-   line-height: 29px;
-
-}
-.rich{
-   font-size: 16px;
-}
-
-.sign-up h5{
-   color: var(--theme-white);
-   font-weight: 400;
-   font-size: 30px;
-}
-form{
-   position: relative;
-}
-form input{
-   background-color:whitesmoke;
-   border: none;
-   outline: none;
-   padding: 16px 99px 16px 10px;
-   margin:20px 0;
-   border-radius: 25px;
-   width: 100%;
-}
-form button{
-   position: absolute;
-   right: 1%;
-   border: none;
-   padding: 10px 9px;
-   border-radius: 50%;
-   top: 50%;
-   transform: translateY(-50%);
-   background-color: #BDE0D3;
-   color: #000;
-}
-button:hover{
-   background-color:#BDE0D3
-}
-.icons-social i{
-   color: whitesmoke;
-   margin-right: 10px;
-   font-size: 19px;
-   background-color: #a5a5a68a;
-   padding: 10px;
-   border-radius :50%;
-   transition: 0.3s all ease-in-out;
-
-}
-.icons-social{
-   margin-top: 20px;
-   text-align: center;
-}
-.icons-social i:hover{
-   background-color: #BDE0D3;
-   color: #000;
-   transition: 0.3s all ease-in-out;
-}
+/* FOOTER */
 
 
+footer{
+    background-color:var(--theme-color);
+    padding: 30px 0;
+ }
+ .shape-img{
+    position: absolute;
+    right:30%;
+    bottom: -10%;
+    object-fit:cover;
+ }
 
+ .footer-inner{
+    display:flex;
+    justify-content: space-between;
+    position: relative;
+ }
+ .mapin{
+    margin-left: 80px;
+ }
+ .footer-items h3{
+    font-size: 40px;
+    font-weight: 500;
+    color: whitesmoke;
+    padding-bottom: 30px;
+ }
+ .footer-items h5{
+    color: whitesmoke;
+    font-weight: 400;
+
+ }
+ .footer-items li{
+    padding-bottom: 30px;
+ }
+ .ri-phone-fill ,.ri-mail-unread-fill ,.ri-map-pin-2-fill{
+ color: #515A68;
+ background-color: #BDE0D3;
+ padding: 10px;
+ border-radius: 50%;
+ margin-right: 14px;
+ }
+ .richtext-2{
+    font-size: 18px;
+    max-width: 200px;
+    line-height: 29px;
+
+ }
+.aerro-icon{
+   padding: 0;
+}
+ .rich{
+    font-size: 16px;
+ }
+.footer-items .ri-arrow-right-line{
+   padding: 0;
+   margin: 0;
+}
+ .sign-up h5{
+    color: var(--theme-white);
+    font-weight: 400;
+    font-size: 30px;
+ }
+ form{
+    position: relative;
+ }
+ form input{
+    background-color:whitesmoke;
+    border: none;
+    outline: none;
+    padding: 16px 99px 16px 10px;
+    margin:20px 0;
+    border-radius: 25px;
+    width: 100%;
+ }
+ form button{
+    position: absolute;
+    right: 1%;
+    border: none;
+    padding: 10px 9px;
+    border-radius: 50%;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #BDE0D3;
+ }
+ .icons-social i{
+    color: whitesmoke;
+    margin-right: 10px;
+    font-size: 19px;
+    background-color: #a5a5a68a;
+    padding: 10px;
+    border-radius :50%;
+    transition: 0.3s all ease-in-out;
+
+ }
+ .icons-social{
+    margin-top: 20px;
+    text-align: center;
+ }
+ .icons-social i:hover{
+    background-color: #BDE0D3;
+    color: #000;
+    transition: 0.3s all ease-in-out;
+ }
 
 
 
