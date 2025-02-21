@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>abg-network</title>
+
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" type="text/css"/>
     <link rel="stylesheet" href="../../assets/fonts/fonts/remixicon.css" type="text/css">
     <link rel="stylesheet" href="../../assets/fonts/tom-fonts/stylesheet.css" type="text/css">
@@ -13,10 +14,10 @@
 <body>
 
  <!-- HEADER    -->
- <div class="div">
+<div class="div">
     <div class="container d-flex align-center justify-between">
         <div class="call-icons d-flex">
-            <img src="../../assets/img/icons/call.svg" title="call" alt="call"/>
+            <img src="../../assets/img/icons/call.svg" title="call" alt="call" />
             <ul>
                 <li>01234 567890 - Mon-Fri 9am to 6.30pm</li>
             </ul>
@@ -29,50 +30,40 @@
         </div>
     </div>
 </div>
-
- <header class="header">
+<header class="header">
     <div class="container">
-        <div class="header_inner">
+        <div class="header_inner ">
             <div class="header_left">
                 <a href="#" class="header_logo_image">
-                    <img src="../../assets/img/icons/logo.svg" alt="images" class="logo">
-                <img src="../../assets/img/icons/dark-logo.png" alt="images" class="d-none d-logo">
-            </a>
+                    <img src="../../assets/img/icons/logo.svg" alt="images">
+                </a>
 
             </div>
             <div class="header_right d-flex">
                 <input class="menu-btn" type="checkbox" id="menu-btn" />
-               <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+                <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
                 <ul class="header_unorderlist">
-                     <li>
+                    <li>
                         <a href="#" class="header_options_a">Who We Are</a>
-                     </li>
-                     <li>
+                    </li>
+                    <li>
                         <a href="#" class="header_options_a">Testimonials</a>
-                     </li>
-                     <li>
+                    </li>
+                    <li>
                         <a href="#" class="header_options_a">News & Araticals</a>
-                     </li>
+                    </li>
 
-                </ul>
-                <a href="javascript:void(0)" class="header_options_a header_anchor">
-                    Get In Touch
-                </a>
-            </div>
-            <div class='btn'>
-                <span class='span span1'></span>
-                <span class='span span2'></span>
-                <span class='span span3'></span>
-            </div>
+                        <a href="#" class="btn green">Get In Touch</a>
 
-            <div class='menu'>
-                <ul>
-                    <li><a href="javacsript:void(0)">Who We Are</a></li>
-                    <li><a href="javacsript:void(0)">Testimonials</a></li>
-                    <li><a href="javacsript:void(0)">News & Araticals</a></li>
-                    <li class="btn-menu"><a href="javascript:void(0)" >
-                        Get In Touch
-                    </a></li>
+                    <div class="header-icons">
+
+                        <a href="javascript:void(0)"><i class="ri-linkedin-fill"></i></a>
+                        <a href="javascript:void(0)"><i class="ri-facebook-fill"></i></a>
+                        <a href="javascript:void(0)"><i class="ri-twitter-fill"></i></a>
+                        <a href="javascript:void(0)"><i class="ri-instagram-fill"></i></a>
+
+                    </div>
+
                 </ul>
             </div>
         </div>
@@ -80,31 +71,66 @@
 </header>
 
 
+<!-- BANNER -->
 
 
-<div class="target"></div>
-    <!-- BANNER -->
-<section class="banner">
-       <img src="../../assets/img/background/banner.png" width="100%" class="banner-img" id="banner.img"/>
+    <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+               <div class="banner">
+                    <div class="banner-img">
+                        <img src="../../assets/img/background/banner.png" />
+                    </div>
+                    <div class="banner-content">
+                        <h1>Welcome to ABG Network</h1>
+                        <p>No other courier company makes deliveries as easy as we do</p>
+                         <div class="d-flex align-center">
+                            <a href="javascript:void(0)" class=btn-primary>What We Do</a>
+                            <a href="javascript:void(0)" class="btn-secondary">Get Started</a>
+                         </div>
+                    </div>
+               </div>
+            </div>
+            <div class="swiper-slide">
+            <div class="banner">
+                <div class="banner-img">
+                    <img src="../../assets/img/background/banner.png" />
+                </div>
+                <div class="banner-content">
+                    <h1>Welcome to ABG Network</h1>
+                    <p>No other courier company makes deliveries as easy as we do</p>
+                    <div class="d-flex align-center">
+                        <a href="javascript:void(0)" class=btn-primary>What We Do</a>
+                        <a href="javascript:void(0)" class="btn-secondary">Get Started</a>
+                    </div>
+                </div>
+            </div>
+            </div>
+            <div class="swiper-slide">
+            <div class="banner">
+                <div class="banner-img">
+                    <img src="../../assets/img/background/banner.png" />
+                </div>
+                <div class="banner-content">
+                    <h1>Welcome to ABG Network</h1>
+                    <p>No other courier company makes deliveries as easy as we do</p>
 
-     <div class="container">
-       <div class="d-flex">
+                    <div class="d-flex align-center">
+                        <a href="javascript:void(0)" class=btn-primary>What We Do</a>
+                        <a href="javascript:void(0)" class="btn-secondary">Get Started</a>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+        <div class="swiper-pagination"></div>
+    </div>
 
-             <div class="banner-content"  id="banner.content">
-                 <h1 class="sub-heading">Welcome to ABG Network</h1>
-                 <p>No other courier company makes deliveries as easy as we do</p>
-                 <div class="button">
-                     <a class="btn-primary">What We Do</a>
-                     <a class="btn-secondary">Get Started</a>
-                 </div>
-             </div>
-         </div>
-     </div>
- </section>
+
 
 <!-- TWO-COL-SECTION -->
 
-<section class="two-col-section">
+ <section class="two-col-section">
      <div class="container">
           <div class="two-col-inner">
               <div class="two-col-images">
@@ -128,34 +154,40 @@
 <!-- OUR-STORY -->
 
 <section class="our-story">
-   <div class="container">
-      <div class="d-flex">
-          <div class="our-story-inner">
-              <div class="our-story-item">
-                  <div class="our-story-content">
-                        <h4>OUR STORY</h4>
-                        <h3>What We Do</h3>
-                        <p>Suspendisse nec mi tempor, commodo est quis, aliquet felis. Sed et consectetur dolor. Praesent eget viverra libero. Sed euismod maximus nisi.
-                             Ut hendrerit libero sit amet sem mollis placerat. Orci varius natoque penatibus</p>
-                        <div class="btn-sucsess">
-                            <a href="javascript:void(0)">Learn More</a>
-                        </div>
-                  </div>
-              </div>
-              <div class="our-story-item">
-                <div class="our-story-img">
-                   <img src="../../assets/img/background/we.png" title="our-1" alt="our-1" width="100%"/>
-                </div>
+    <div class="container">
+        <div class="our_inner">
+            <div class="our_left_section">
+                <h4 class="our_left_section_heading">
+                    OUR PURPOSE
+                </h4>
+                <h2 class="our_left_heading">
+                    More information
+                </h2>
+                <p class="our_left_section_para">
+                    Nulla imperdiet aliquet augue, id feugiat metus aliquam id. Nunc id purus
+                    in dolor pharetra interdum sit amet ut enim. Praesent fermentum arcu nec
+                    purus congue dignissim. Nullam pretium ipsum eu semper posuere. Lorem ipsum
+                    dolor sit amet, consectetur adipiscing elit. Donec non tortor a nibh. euismod
+                    gravida. Sed congue, ex at consequat faucibus, massa est gravida diam, a pretium
+                    tellus ex sit amet nulla. Vivamus rutrum tincidunt eros. Cras facilisis metus sed tincidunt
+                    cursus. Integer urna sem, condimentum vel maximus vel, interdum ut nulla. Cras eleifend,
+                    purus nec lacinia lacinia, mi justo porta odio, quis cursus turpis mauris eget nisl. Nullam
+                    quis tortor nisl. Phasellus semper neque turpis, non tristique ex facilisis et. Praesent et tristique augue.
+                    Donec at pharetra dolor. Donec egestas a sapien vel facilisis. Morbi sed faucibus magna, ac consectetur odio.
+                </p>
+
             </div>
-          </div>
-      </div>
-   </div>
+            <div class="our_right_section">
+                <img src="../../assets/img/background/we.png" alt="images" draggable="false">
+            </div>
+        </div>
+    </div>
 </section>
 
 <!-- THE-PROCESS -->
 
 
-<section class="process">
+ <section class="process">
     <div class="container">
           <div class="pro-title">
              <h2>The Process</h2>
@@ -256,7 +288,7 @@
 
 <!-- CARDS -->
 
-<section class="services">
+ <section class="services">
     <div class="container">
        <div class="services-title text-center d-flex justify-between align-center">
              <h4  class="services-heading">Latest News</h4>
@@ -321,7 +353,7 @@
 
 <!-- LOGOS ALL -->
 
-<div class="logos-all">
+ <div class="logos-all">
     <marquee autoplay>
         <img src="../../assets/img/icons/1.png" title="1" alt="1"/>
         <img src="../../assets/img/icons/2.png" title="2" alt="2"/>
@@ -350,7 +382,7 @@
 <!-- FOOTER -->
 
 
-<footer>
+ <footer>
     <div class="container">
         <div class="footer-inner">
             <div class="shape-img">
@@ -406,31 +438,15 @@
 <script src="https://code.jquery.com/jquery-3.7.1.min.js" type="text/javascript"></script>
 <script>
 
-     var Menu = document.querySelector('.menu');
-        var Btn = document.querySelector('.btn');
-        var trgt = document.querySelector('.target');
-
-        Btn.onclick = function () {
-            Menu.classList.toggle('show');
-            trgt.classList.toggle('active');
-        }
-
-        window.onclick = function (event) {
-            if (event.target == trgt) {
-                Menu.classList.remove('show');
-                trgt.classList.remove('active');
-            }
-        }
-
     var swiper = new Swiper(".mySwiper", {
-        pagination: {
-            el: ".swiper-pagination",
-            clickable: true,
-            renderBullet: function (index, className) {
-                return '<span class="' + className + '">' + (index + 1) + "</span>";
+            pagination: {
+                el: ".swiper-pagination",
             },
-        },
-    })
+            autoplay :{
+
+            },
+        });
+
 </script>
 </body>
 </html>
