@@ -46,6 +46,7 @@ main{
 }
 
 /* HEADER */
+
 .div{
    background-color: #515A68;
    padding: 10px 0;
@@ -61,11 +62,10 @@ main{
 .header_inner{
     display: flex;
     justify-content: space-between;
-    align-items: center;
+ align-items: center;
     /* padding: 30px 0; */
  }
  .header{
-
     padding: 10px 0;
     /* background-color: whitesmoke; */
  }
@@ -75,8 +75,10 @@ main{
     justify-content: space-between;
     list-style: none;
     gap: 40px;
-    color: black;
  }
+ .header-icons a{
+   display: none;
+}
  .header_logos_image{
     display: none;
  }
@@ -92,6 +94,12 @@ main{
     border: 2px solid grey;
     padding: 15px 30px;
     border-radius: 25px;
+    transition: 0.3s all ease-in-out;
+
+ }
+ .header_anchor:hover{
+   background-color: var(--theme-green);
+      transition: 0.3s all ease-in-out;
 
  }
  .header .menu-btn {
@@ -146,6 +154,10 @@ main{
  .header .menu-icon .navicon:after {
     top: -5px;
  }
+ .header-inner{
+
+ }
+
 
 
 /* GET A QUESTIONS */

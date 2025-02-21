@@ -48,39 +48,25 @@ main{
 
 
 .div{
-    background-color:#515A68;
-    padding: 10px 0;
+   background-color: #515A68;
+   padding: 10px 0;
 }
-.call-icons li{
-    color: whitesmoke;
-    padding-left: 20px;
+.div li{
+   color: white;
+   margin-left: 10px;
 }
-.icons-socia i{
-    color: whitesmoke;
-    margin:0 10px;
-    transition:all 0.3s ease-in-out;
-
+.icons-socia  i{
+   color:white;
+   padding: 0 10px;
 }
-.icons-socia i:hover{
-    color:#BDE0D3;
-    transition:all 0.3s ease-in-out;
-
-}
-/* HEADER */
-
 .header_inner{
     display: flex;
     justify-content: space-between;
-    align-items: center;
+ align-items: center;
     /* padding: 30px 0; */
  }
  .header{
-        position: sticky;
-        top: 0;
-        margin-right: 30px;
-       padding: 10px 0;
-       width: 100%;
-       z-index: 999;
+    padding: 10px 0;
     background-color: whitesmoke;
  }
  .header_unorderlist{
@@ -90,11 +76,14 @@ main{
     list-style: none;
     gap: 40px;
  }
+ .header-icons a{
+   display: none;
+}
  .header_logos_image{
     display: none;
  }
  .header_options_a{
-    color: var(--theme-white);
+    color:black;
     font-size: 14px;
     padding: 10px;
  }
@@ -105,6 +94,12 @@ main{
     border: 2px solid grey;
     padding: 15px 30px;
     border-radius: 25px;
+    transition: 0.3s all ease-in-out;
+
+ }
+ .header_anchor:hover{
+   background-color: var(--theme-green);
+      transition: 0.3s all ease-in-out;
 
  }
  .header .menu-btn {
@@ -159,6 +154,15 @@ main{
  .header .menu-icon .navicon:after {
     top: -5px;
  }
+ .header-inner{
+
+ }
+
+
+
+
+
+
 
 
 

@@ -160,7 +160,7 @@ transition: all 0.3s ease-in-out;
 .header_anchor{
    color: var(--theme-white);
    font-weight: 500;
-   border: 2px solid var(--theme-color);
+   border: 2px solid var(--theme-white);
    padding: 15px 30px;
    border-radius: 25px;
 

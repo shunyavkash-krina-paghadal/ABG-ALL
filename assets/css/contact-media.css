@@ -137,26 +137,28 @@
     margin: 0;
    }
 }
-@media (max-width:435px) {
+@media (max-width:790px) {
     .btn{
         display: none;
     }
-	.header_unorderlist {
+	.header_unorderlist{
         display: none;
         position: absolute;
-        top: 117px;
+        top: 100px;
         left: 0;
         width: 100%;
-        background-color:whitesmoke;
+        background-color:white;
         flex-direction: column;
         gap: 20px;
-        padding: 20px 0;
+        padding: 20px 30px;
         z-index: 999;
+        align-items: start;
     }
     .header_unorderlist li {
         margin-top: 20px;
         text-align: center;
         display: block;
+        color: black;
     }
     .header .menu-btn:checked ~ .header_unorderlist {
         display: flex;
@@ -177,13 +179,21 @@
     .mini_header{
         display: none;
     }
-    .header_options_a{
-        color:black;
-    }
+    /* .header_options_a{
+        color:red;
+    } */
     .header_anchor{
-        background-color:whitesmoke;
-		display: none;
+		display: block;
+        background-color: var(--theme-green);
+        border: none;
+        transition: 0.3s all ease-in-out;
 
+
+    }
+    .header_anchor:hover{
+       background-color: white;
+       border: 1px solid var(--theme-color);
+        transition: 0.3s all ease-in-out;
     }
     .header .menu-icon .navicon {
         background:black;
@@ -209,76 +219,40 @@
         align-items: center;
         justify-content: center;
     }
-    header{
-		background-color: azure;
-	}
+
 	.d-logo{
 		display: block;
 	}
 	.logo{
 		display: none;
 	}
-
-
-
-
-	/* 123 */
-	#banner.img{
-		order: 2;
-		display:flex;
-	}
-	#banner.content{
-		order: 1;
-		display: flex;
-	}
-	 .logo-light{
-		display: none;
-	 }
-	 .dark-logo{
-		display: block;
-	 }
 	 .navigation{
 		background-color: transparent;
 	 }
-	.banner-img{
-		background:rgb(0,0,0,0.2);
-		 background-size:cover;
-		padding:0;
+     .header-icons a{
+        display: inline-flex;
+        z-index: 9999;
+       background-color: var(--theme-color);
+       width: 50px;
+       height: 50px;
+       text-align: center;
+       align-items: center;
+       justify-content: center;
+       margin: auto;
+       border-radius: 50%;
+       color: white;
+       font-size: 20px;
+       margin: 0 7px;
+       transition: 0.3s all ease-in-out;
+     }
+     .header-icons a:hover{
+        background-color:var(--theme-green);
+        color: black;
+         transition: 0.3s all ease-in-out;
+     }
 
-		position: static;
-		background-blend-mode:darken;
 
-	 }
-	 .banner-content {
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		position: static;
-		top: 0;
-		left: 0;
-		margin: auto;
-		transform: translate(0,0);
 
-	 }
-	 .banner-content h1{
-		color: #000;
-		font-weight: 300;
-	 }
-	 .banner-content p{
-		color: gainsboro;
-		line-height: 30px;
-		font-weight: 400;
-	 }
-	 .banner-content .btn-1{
-		margin-bottom: 20px;
-	 }
-	 .btn-2{
-		color: #000;
-	 }
-	 .banner{
-
-		height: 100%;
-	}
 
 
 }
