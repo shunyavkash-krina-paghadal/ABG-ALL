@@ -52,7 +52,7 @@
                         <a href="#" class="header_options_a">Testimonials</a>
                     </li>
                     <li>
-                        <a href="#" class="header_options_a">Nes & Araticals</a>
+                        <a href="#" class="header_options_a">News & Araticals</a>
                     </li>
                     <a href="javascript:void(0)" class="header_options_a header_anchor">
                         Get In Touch
@@ -75,7 +75,7 @@
 </header>
 
 
- <div class="container-11">
+ <div class="container">
         <!-- Sidebar -->
  <aside class="sidebar">
             <a href="#" class="back-link">Back To All</a>
@@ -137,48 +137,46 @@
 <!-- SLIDER-FEEDBACK -->
 
 
-<section class="myfeed">
+    <div class="swiper mySwiper ">
+        <!-- <div class="qoutes-img">
+                <img src="../../assets/img/icons/qu-1png.png" />
+            </div> -->
+        <div class="swiper-wrapper">
 
-    <div class="swi">
-
-        <div class="swiper mySwiper">
-            <div class="swiper-wrapper">
-                <div class="swiper-slide">
-                    <div class="swiper-img">
-                        <img src="../../assets/img/icons/boy.png" />
-                    </div>
-                    <div class="content-swiper">
-                        <h4>CUSTOMER FEEDBACK</h4>
-                        <h3 class="head">“Buying a franchise has changed everything. Everything runs so smoothly now. I can’t thank ABG enough for their services.”</h3>
-                        <h5>BRYAN WELTON, FRANCHISE OWNER, SOMERSET</h5>
-
-                    </div>
+            <div class="swiper-slide">
+                <div class="swiper-img">
+                    <img src="../../assets/img/icons/boy.png" />
                 </div>
-                <div class="swiper-slide">
-                    <div class="swiper-img">
-                        <img src="../../assets/img/icons/boy.png" />
-                    </div>
-                    <div class="content-swiper">
-                        <h4>CUSTOMER FEEDBACK</h4>
-                        <h3>“Buying a franchise has changed everything. Everything runs so smoothly now. I can’t thank ABG enough for their services.”</h3>
-                        <h5>BRYAN WELTON, FRANCHISE OWNER, SOMERSET</h5>
-                    </div>
-                </div>
-                <div class="swiper-slide">
-                    <div class="swiper-img">
-                        <img src="../../assets/img/icons/boy.png" />
-                    </div>
-                    <div class="content-swiper">
-                        <h4>CUSTOMER FEEDBACK</h4>
-                        <h3>“Buying a franchise has changed everything. Everything runs so smoothly now. I can’t thank ABG enough for their services.”</h3>
-                        <h5>BRYAN WELTON, FRANCHISE OWNER, SOMERSET</h5>
-                    </div>
+                <div class="content-swiper">
+                    <h4>CUSTOMER FEEDBACK</h4>
+                    <h3 class="head">“Buying a franchise has changed everything. Everything runs so smoothly now. I can’t thank ABG enough for their services.”</h3>
+                    <h5>BRYAN WELTON, FRANCHISE OWNER, SOMERSET</h5>
+
                 </div>
             </div>
-            <div class="swiper-pagination"></div>
+            <div class="swiper-slide">
+                <div class="swiper-img">
+                    <img src="../../assets/img/icons/boy.png" />
+                </div>
+                <div class="content-swiper">
+                    <h4>CUSTOMER FEEDBACK</h4>
+                    <h3>“Buying a franchise has changed everything. Everything runs so smoothly now. I can’t thank ABG enough for their services.”</h3>
+                    <h5>BRYAN WELTON, FRANCHISE OWNER, SOMERSET</h5>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="swiper-img">
+                    <img src="../../assets/img/icons/boy.png" />
+                </div>
+                <div class="content-swiper">
+                    <h4>CUSTOMER FEEDBACK</h4>
+                    <h3>“Buying a franchise has changed everything. Everything runs so smoothly now. I can’t thank ABG enough for their services.”</h3>
+                    <h5>BRYAN WELTON, FRANCHISE OWNER, SOMERSET</h5>
+                </div>
+            </div>
         </div>
+        <div class="swiper-pagination"></div>
     </div>
-</section>
 
 <!-- CARDS -->
 
@@ -213,7 +211,7 @@
 
                 <div class="services-content">
                     <h4>GENERAL NEWS</h4>
-                    <h5>Creating a courier business plan</h5>
+                    <h5>What it’s like to work for ABG</h5>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean l
                         aoreet lacus sed ex pharetra, vel pretium justo facilisis. Proin fringilla luctus tortor nec vehicul</p>
                     <a href="javascript:void"><i class="ri-arrow-right-line"></i></a>
@@ -332,14 +330,8 @@
     var swiper = new Swiper(".mySwiper", {
         pagination: {
             el: ".swiper-pagination",
-            clickable: true,
-            renderBullet: function (index, className) {
-                return '<span class="' + className + '">' + (index + 1) + "</span>";
-            },
         },
-        autoplay:{
 
-        },
     });
 
 

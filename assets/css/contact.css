@@ -237,7 +237,10 @@ right:0;
     word-spacing: 2px;
     letter-spacing: 2px;
   }
-
+.form-title {
+   text-align: center;
+   margin: a;
+}
   .que-items a{
     background-color: #BDE0D3;
    color: black;
@@ -257,9 +260,13 @@ right:0;
     padding: 10px 17px;
     border-radius: 20px;
     font-size: 15px;
+    border: 1px solid transparent;
+    transition: 0.3s all ease-in-out;
   }
 .btn-primary:hover{
-  color: #000;
+  background-color: white;
+  border: 1px solid black;
+  transition: 0.3s all ease-in-out;
  }
     .btn-secondary{
     margin:0 30px;
@@ -268,20 +275,26 @@ right:0;
     padding: 10px 17px;
     border-radius: 20px;
     font-size: 15px;
+      transition: 0.3s all ease-in-out;
   }
-      .form-grid {
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: 10px;
-        }
+  .btn-secondary:hover{
+   background-color:var(--theme-green);
+   color: black;
+  transition: 0.3s all ease-in-out;
+  }
+.form-grid {
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   gap: 10px;
+ }
 
-        .form-grid input,
-        .full-width input,
-        .full-width textarea {
-            width: 100%;
-            padding: 10px;
-            border: none;
-            outline: none;
+.form-grid input,
+.full-width input,
+.full-width textarea {
+    width: 100%;
+   padding: 10px;
+   border: none;
+    outline: none;
             /* border: 1px solid #ccc; */
             border-radius: 5px;
             font-size: 16px;
@@ -357,7 +370,7 @@ button:hover {
     max-width: 650px;
     margin: auto;
     font-weight: 300;
-    font-size: 17px;
+    font-size: 15px;
     line-height: 30px;
     color: rgb(172, 170, 170);
  }
@@ -388,13 +401,13 @@ button:hover {
 
 
  .content-process h3{
-    font-size: 24px;
+    font-size: 26px;
     font-weight:500;
     padding: 20px 0;
  }
  .content-process p{
     font-weight: 300;
-    font-size: 17px;
+    font-size: 14px;
     line-height: 30px;
     color: rgb(172, 170, 170);
     max-width: 300px;
@@ -402,15 +415,15 @@ button:hover {
  .num{
     background-color: #515A68;
     color: whitesmoke;
-    width: 60px;
-    height: 60px;
-    font-size: 20px;
+    width: 80px;
+    height: 80px;
+    font-size: 40px;
     text-align: center;
-    line-height: 60px;
+    line-height: 80px;
     border-radius: 50%;
     position: absolute;
-    right: 3%;
-    bottom: 6%;
+    right: 1%;
+    bottom:0;
  }
  .get-in-btn{
     text-align: center;
@@ -506,6 +519,12 @@ footer{
  form{
     position: relative;
  }
+ button:hover{
+   background-color: var(--theme-white);
+   color: black;
+   transition: 0.3s all ease-in-out;
+   border: 1px solid black;
+ }
  form input{
     background-color:whitesmoke;
     border: none;
@@ -524,6 +543,7 @@ footer{
     top: 50%;
     transform: translateY(-50%);
     background-color: #BDE0D3;
+    transition: 0.3s all ease-in-out;
  }
  .icons-social i{
     color: whitesmoke;

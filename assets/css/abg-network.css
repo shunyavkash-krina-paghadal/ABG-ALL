@@ -88,7 +88,7 @@ ul,ol{
  }
 .header_options_a {
     color: var(--theme-white);
-    font-size: 18px;
+    font-size: 16px;
     padding: 10px;
     font-weight: 400;
 }
@@ -143,6 +143,9 @@ ul,ol{
     transition: background 1s ease-out;
     width: 18px;
  }
+ .icons-socia img{
+     padding: 0 7px;
+ }
  .header .menu-icon .navicon:before,
  .header .menu-icon .navicon:after {
     background: var(--theme-black);
@@ -164,33 +167,19 @@ ul,ol{
    max-width: 140px;
    height: 100%;
 }
-.btn {
-  border-radius: 25px;
-  position: relative;
-  text-decoration: none;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border: 1.5px solid black;
-  padding: 1rem 2rem;
-  font-size: 15px;
-  background-size: 300%;
-  transition: all 0.6s;
-
+.btn-info{
+   color: white;
+   border: 1px solid white;
+   padding: 15px 35px;
+   border-radius: 25px;
+   font-size: 15px;
+      transition: 0.3s all ease-in-out;
 }
-.green {
-    color: var(--theme-black);
-    background-image: linear-gradient(-120deg, #BDE0D3 50%, white 50%);
-}
-.btn:hover {
-  color: var(--theme-black);
-  background-position: 100%;
-  /* transform: translateX(0.5rem); */
-}
-
-.btn:active {
-  transform: translate(0.5rem, 0.5rem);
-  box-shadow: 0px 10px 20px -15px rgba(0, 0, 0, 0.75);
+.btn-info:hover{
+   background-color: var(--theme-green);
+   border:1px solid transparent;
+   transition: 0.3s all ease-in-out;
+   color: black;
 }
 /* BANNER */
 .banner {
@@ -214,17 +203,20 @@ ul,ol{
    transform: translate(-50%,-50%);
 }
 
-.banner-content .btn-secondary{
-   border: 2px solid var(--theme-color);
-   padding:15px 40px;
-   color:var(--theme-white);
-   font-size: 15px;
-   border-radius: 25px;
-   cursor: pointer;
+a.btn-secondary {
+    /* background: red; */
+    border: 1px solid var(--theme-white);
+    color: var(--theme-white);
+    font-size: 15px;
+    padding: 14px 39px;
+    border-radius: 25px;
+    cursor: pointer;
+      transition:0.3s all ease-in-out;
 }
-.btn-secondary :hover{
-     background-color:red;
-
+a.btn-secondary:hover{
+   background-color: var(--theme-green);
+   border: 1px solid transparent;
+  transition:0.3s all ease-in-out;
 }
 .banner-content .btn-primary{
      padding:15px 40px;
@@ -237,6 +229,7 @@ ul,ol{
 }
 .banner-content .buttons{
     cursor: pointer!important;
+    white-space: nowrap;
 }
 .banner-content p{
    padding: 23px 0;
@@ -257,29 +250,27 @@ ul,ol{
       height: 100%;
     }
 
-    .swiper-slide {
+.swiper-slide {
       text-align: center;
       font-size: 18px;
       background: #fff;
       display: flex;
       justify-content: center;
       align-items: center;
-    }
+}
 
-    .swiper-slide img {
+.swiper-slide img {
       display: block;
       width: 100%;
       height: 100%;
       object-fit: cover;
-    }
-    .banner-img{
+ }
+ .banner-img{
       width: 100%;
       height: 100vh;
     object-fit: cover;
     position: relative;
     overflow: hidden;
-
-
 }
 
  .banner-img::after {
@@ -425,20 +416,21 @@ section.two-col-section {
     position:absolute;
     right: 0;
     width: 50%;
-    height: 100%;
+    height: 100vh;
     max-height: 567px;
     color: #2C3646;
+    margin-top: 60px;
 
 
 }
 .our_right_section img{
    width: 100%;
-  height: 575px;
+  height: 100vh;
    padding-top: 0;
 }
 .our-story{
     position: relative;
-    padding: 70px 0;
+    padding: 13px 0 0 0;
 
 }
 
@@ -478,7 +470,7 @@ section.two-col-section {
  /* THE-PROCESS */
 
  .process{
-    padding: 200px 0 70px 0;
+    padding: 230px 0 70px 0;
  }
  .pro-title{
    text-align: center;
@@ -576,14 +568,30 @@ section.two-col-section {
 
 
 /* SLIDER FEEDBACK */
- .myfeed {
+ .swiper{
     width: 100%;
     height: 100%;
-    background-color:var(--theme-color);
-    padding: 50px 0;
+
 
 }
-  .swiper-slide {
+.feedback-section{
+    background-color:var(--theme-color);
+    padding: 50px 0;
+    position: relative;
+}
+.qoutes-img{
+   position: absolute;
+   top: -20%;
+   right: 25%;
+   z-index: 999;
+   /* background-color: pink; */
+}
+.qoutes-img  img{
+   width: 345px;
+  height: 1220px;
+transform: matrix(-1, 0, 0, -1, 0, 0);
+}
+.swiper-slide {
     text-align: center;
     font-size: 18px;
     background-color: transparent;

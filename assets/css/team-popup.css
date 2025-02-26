@@ -71,14 +71,14 @@ ul{
     align-items: center;
     justify-content: space-between;
     list-style: none;
-    gap: 40px;
+    gap: 11px;
  }
  .header_logos_image{
     display: none;
  }
  .header_options_a{
     color: var(--theme-white);
-    font-size: 14px;
+    font-size: 16px;
     padding: 10px;
  }
  .header_anchor{
@@ -200,6 +200,9 @@ ul{
 
 /* SERVICES */
 
+.services{
+   margin: 50px 0;
+}
 .services-inner{
    display: grid;
    grid-template-columns: repeat(3,1fr);
@@ -217,6 +220,16 @@ ul{
   width: 100%;
   display: block;
   object-fit: cover;
+  transition: 0.3s all ease-in-out;
+
+
+}
+.services-img img:hover{
+   transform: scale(1.1);
+   transition: 0.3s all ease-in-out;
+}
+.services-img{
+  overflow: hidden;
 
 }
 
@@ -229,16 +242,31 @@ ul{
   font-size: 37px;
 }
 .services-title a{
-  background-color:gray;
+  background-color:var(--theme-color);
   color:whitesmoke;
   padding:10px 39px;
   border-radius: 25px;
+    border: 1px solid transparent;
+transition: 0.3s all ease-in-out;
+}
+.services-title a:hover{
+   background-color: white;
+   border: 1px solid black;
+   color: #000;
+   transition: 0.3s all ease-in-out;
 }
 .ri-arrow-right-line{
     background-color: #BDE0D3;
     padding: 10px;
     border-radius: 50%;
     color: #000;
+   border:1px solid transparent;
+   transition:0.3s all ease-in-out
+}
+.ri-arrow-right-line:hover{
+   background-color: white;
+      border:1px solid black;
+      transition:0.3s all ease-in-out
 }
 .services-content h4{
   color:#2C3646;

@@ -279,11 +279,10 @@ p , .col-items p {
 
 
 /* SLIDER FEEDBACK */
-
-.myfeed {
+ .swiper {
     width: 100%;
     height: 100%;
-    background-color: #515A68;
+    background-color:var(--theme-color);
     padding: 50px 0;
     margin: 90px 0;
 
@@ -291,7 +290,7 @@ p , .col-items p {
   .swiper-slide {
     text-align: center;
     font-size: 18px;
-
+    background-color: transparent;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -326,20 +325,21 @@ p , .col-items p {
     letter-spacing: 1;
   }
 
-    .swiper-pagination-bullet {
-      width: 20px;
-      height: 20px;
+
+.swiper-pagination-bullet {
+      width: 3px;
+      height: 35px;
       text-align: center;
       line-height: 20px;
       font-size: 12px;
       color: #000;
-      opacity: 1;
+      opacity: 4;
       background: rgba(0, 0, 0, 0.2);
     }
 
     .swiper-pagination-bullet-active {
       color: #fff;
-      background: #007aff;
+      background: var(--theme-white);
     }
 .swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal {
     display: flex;
@@ -348,7 +348,16 @@ p , .col-items p {
     bottom:40%;
     align-items: flex-end;
     gap: 10px;
-    margin-right: 20px;
+   padding-right: 40px;
+}
+/* .qoutes-img img{
+   width: 345px;
+   height: 1220px;
+
+} */
+
+.swiper{
+   position: relative;
 }
 /* SERVICES */
 
@@ -396,10 +405,11 @@ p , .col-items p {
   color:#2C3646;
   font-weight: 200;
   margin: 9px 0;
+  font-size: 12px;
 }
 .services-content h5{
    color: #2C3646;
-   font-size: 24px;
+   font-size: 26px;
    font-weight: 600;
   margin-bottom: 9px;
 }
@@ -507,6 +517,7 @@ footer{
    padding: 0;
    margin: 0;
 }
+.ri-arrow-right-line
  .sign-up h5{
     color: var(--theme-white);
     font-weight: 400;

@@ -153,6 +153,7 @@
         padding: 20px 30px;
         z-index: 999;
         align-items: start;
+        height: 100vh;
     }
     .header_unorderlist li {
         margin-top: 20px;
@@ -162,6 +163,7 @@
     }
     .header .menu-btn:checked ~ .header_unorderlist {
         display: flex;
+        justify-content: inherit;
     }
     .header .menu-icon {
         display: inline-block;

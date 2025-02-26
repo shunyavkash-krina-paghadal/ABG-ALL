@@ -159,7 +159,10 @@ ul,ol{
 
 .hero-section{
     background-color: #BDE0D3;
-    padding: 40px 0;
+    padding: 120px 0;
+   clip-path: ellipse(100% 55% at 48% 44%);
+       position: relative;
+
 }
 .title-hero{
     display: flex;
@@ -217,7 +220,7 @@ ul,ol{
 
 }
 .hero-content h5{
-   font-size: 15px;
+   font-size: 14px;
    font-weight: 200;
    color:#2C3646;
    font-family:fantasy;
@@ -299,30 +302,38 @@ ul,ol{
  .num{
     background-color: #515A68;
     color: whitesmoke;
-    width: 60px;
-    height: 60px;
-    font-size: 20px;
+    width: 80px;
+    height: 80px;
+    font-size: 40px;
     text-align: center;
-    line-height: 60px;
+    line-height:80px;
     border-radius: 50%;
     position: absolute;
     right: 3%;
     bottom: 6%;
  }
- .geti , primary-btn{
+ .buttons, primary-btn{
     text-align: center;
     padding: 30px 0;
 
 
  }
- .get {
+ .btn-secondary       {
     background-color: #515A68;
     padding: 15px 25px;
     color: whitesmoke;
     display: inline-block;
     border-radius:25px;
-    transition:all 0.3s ease-in-out;
+        transition:0.3s all ease-in-out;
+        border: 1px solid transparent;
  }
+ .btn-secondary:hover{
+   background-color: white;
+   transition:0.3s all ease-in-out;
+  border: 1px solid black;
+  color: black;
+ }
+
 .primary-btn a{
    color: black;
 }
@@ -332,6 +343,14 @@ ul,ol{
     display: inline-block;
     border-radius:25px;
     transition:all 0.3s ease-in-out;
+        border: 1px solid transparent;
+}
+.primary-btn:hover{
+   background-color: white;
+   transition:0.3s all ease-in-out;
+  border: 1px solid black;
+  color: black;
+
 }
  /* LEARN */
 

@@ -49,7 +49,7 @@
     display: flex;
     flex-direction: row;
     position: absolute;
-    bottom:0;
+    bottom:7px;
     left: 35%;
     /* align-items: flex-end; */
     gap: 10px;
@@ -131,9 +131,6 @@
 
  }
 
- .two-col-section{
-    margin-top: 160px;
- }
 .banner-content h1 {
     color: #2C3646 !important;;
     font-size: 41px;
@@ -228,15 +225,43 @@
 	.Group-img img{
 		display: none!important;
 	}
+    .header_options_a{
+        white-space: nowrap;
+    }
+   .btn-info{
+    white-space: nowrap;
+
+
+
+
+
+
+
+
+
+   }
 }
 
-
+@media (max-width:430px) {
+.two-content {
+    position: absolute;
+    top:0;
+    left: 0;
+    /* padding: 0 30px 10px 30px; */
+    z-index: 999;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+}
 @media (max-width:351px) {
 .swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal {
         display: flex;
         flex-direction: row;
         position: absolute;
-        bottom: 0;
+        bottom: 4px;
         left: 25%;
         /* align-items: flex-end; */
         gap: 10px;
@@ -263,10 +288,27 @@
     .btn{
         display: block;
     }
+    .qoutes-img{
+        display: none;
+    }
    .green {
     color: var(--theme-black);
     background-image: linear-gradient(-120deg, #BDE0D3 50%, white 50%);
     margin: 30px 0;
+}
+.btn-info {
+    color: black;
+    background-color: var(--theme-green);
+    border: 1px solid transparent;
+    padding: 15px 35px;
+    border-radius: 25px;
+    transition: 0.3s all ease-in-out;
+    margin: 70px 0 117px 0
+}
+.btn-info:hover{
+    background-color: white;
+    border: 1px solid var(--theme-color);
+    transition: 0.3s all ease-in-out;
 }
 	.header_unorderlist{
         display: none;
@@ -282,22 +324,26 @@
         align-items: start;
         padding-top: 90px;
         height: 100vh;
+        white-space: nowrap ;
+        justify-content:inherit;
 }
     .header_unorderlist li {
         margin-top: 20px;
         text-align: center;
         display: block;
         color: black;
+        justify-content:inherit;
 
     }
     .header_unorderlist li a{
         font-size: 30px;
+        justify-content:inherit;
     }
 
     .header .menu-btn:checked ~ .header_unorderlist {
         display: flex;
         flex-direction: column;
-        justify-content: space-between;
+        justify-content:inherit;
         text-align: left!important;
        margin-top: 30px;
     }
@@ -439,6 +485,9 @@
     padding: 0 20px;
     gap: 6px;
 }
+.process {
+    padding: 51px 0 70px 0;
+}
  .our_inner{
     display: grid;
      grid-template-columns: repeat(1,1fr);
@@ -446,6 +495,7 @@
     .our_right_section{
         position: static;
         width: 100%;
+        height: 100%;
     }
 .our{
         position: relative;

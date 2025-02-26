@@ -5,20 +5,22 @@
 	.header_unorderlist{
         display: none;
         position: absolute;
-        top: 100px;
+        top: 125px;
         left: 0;
         width: 100%;
         background-color:white;
         flex-direction: column;
-        gap: 20px;
         padding: 20px 30px;
         z-index: 999;
         align-items: start;
+        white-space: nowrap;
     }
-    .header_unorderlist li {
+    .header_unorderlist li a {
         margin-top: 20px;
+        color: var(--theme-color);
         text-align: center;
         display: block;
+        font-size: 32px;
     }
     .header .menu-btn:checked ~ .header_unorderlist {
         display: flex;
@@ -42,14 +44,27 @@
     .header_options_a{
         color:black;
     }
-    .header_anchor{
-		display: block;
+    .header_anchor {
+        display: block;
         background-color: var(--theme-green);
         border: none;
         transition: 0.3s all ease-in-out;
-
+        padding: 15px 56px;
+        border: 1px solid transparent;
+        margin-top: 40px;
 
     }
+    .header_anchor:hover{
+        background-color:white;
+
+    }
+
+    .header-icons {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-between; */
+    margin: 183px 0 0 0;
+}
     .header_anchor:hover{
        background-color: white;
        border: 1px solid var(--theme-color);
@@ -175,5 +190,18 @@
     padding: 0 20px;
 }
 }
+
+@media (max-width: 400px) {
+  .services-title{
+    display: flex;
+    flex-direction: column;
+    align-items:self-start;
+}
+.services-title h4{
+    margin:20px 0;
+}
+}
+
+
 
 
