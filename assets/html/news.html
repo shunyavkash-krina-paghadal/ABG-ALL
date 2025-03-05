@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" type="text/css"/>
     <link rel="stylesheet" href="../../assets/fonts/fonts/remixicon.css" type="text/css">
-    <link rel="stylesheet" href="../../assets/fonts/tom-fonts/stylesheet.css" type="text/css">
+    <link rel="stylesheet" href="../../assets/fonts/round/stylesheet.css" type="text/css">
     <link rel="stylesheet" href="../../assets/css/news.css" type="text/css">
     <link rel="stylesheet" href="../../assets/css/news-media.css" type="text/css">
 </head>
@@ -18,17 +18,27 @@
 
 <div class="div">
     <div class="container d-flex align-center justify-between">
-        <div class="call-icons d-flex">
-            <img src="../../assets/img/icons/call.svg" title="call" alt="call" />
-            <ul>
-                <li>01234 567890 - Mon-Fri 9am to 6.30pm</li>
-            </ul>
+        <div class="top-left-section d-flex">
+            <a href="tel:01234 567890">
+                <img src="../../assets/img/icons/call.svg" title="call" alt="call" />
+                <a href="javascript:void(0)">01234 567890 - Mon-Fri 9am to 6.30pm
+                </a>
+            </a>
+
         </div>
-        <div class="icons-socia">
-            <a href="javascript:void(0)"><i class="ri-linkedin-fill"></i></a>
-            <a href="javascript:void(0)"><i class="ri-facebook-fill"></i></a>
-            <a href="javascript:void(0)"><i class="ri-twitter-fill"></i></a>
-            <a href="javascript:void(0)"><i class="ri-instagram-fill"></i></a>
+        <div class="top-icons">
+            <a href="https://in.linkedin.com/">
+                <img src="../../assets/img/icons/linkdin.png" />
+            </a>
+            <a href="https://www.facebook.com/">
+                <img src="../../assets/img/icons/facebook.png" />
+            </a>
+            <a href="https://www.instagram.com/accounts/login/">
+                <img src="../../assets/img/icons/instagram.png" />
+            </a>
+            <a href="https://x.com/i/flow/login">
+                <img src="../../assets/img/icons/twitter.png" />
+            </a>
         </div>
     </div>
 </div>
@@ -37,7 +47,8 @@
         <div class="header_inner ">
             <div class="header_left">
                 <a href="#" class="header_logo_image">
-                    <img src="../../assets/img/icons/dark-logo.png" alt="images">
+                    <img src="../../assets/img/icons/dark-logo.png" class="d-none dark-logo" />
+                    <img src="../../assets/img/icons/logo.svg" alt="images" class="light-logo">
                 </a>
 
             </div>
@@ -52,11 +63,10 @@
                         <a href="#" class="header_options_a">Testimonials</a>
                     </li>
                     <li>
-                        <a href="#" class="header_options_a">Nes & Araticals</a>
+                        <a href="#" class="header_options_a">News & Araticals</a>
                     </li>
-                    <a href="javascript:void(0)" class="header_options_a header_anchor">
-                        Get In Touch
-                    </a>
+                    <a href="javascript:void(0)" class="btn-primary">Get In Touch</a>
+
                     <div class="header-icons">
 
                         <a href="javascript:void(0)"><i class="ri-linkedin-fill"></i></a>
@@ -65,9 +75,7 @@
                         <a href="javascript:void(0)"><i class="ri-instagram-fill"></i></a>
 
                     </div>
-
                 </ul>
-
 
             </div>
         </div>
@@ -88,11 +96,9 @@
                  <h1>Creating a courier business plan</h1>
                  <p>Suspendisse nec mi tempor, commodo est quis, aliquet
                      felis. Sed et consectetur dolor. Praesent eget viverra libero.</p>
-                 <div class="primary-btn">
-                    <a href="javascript:void(0)">View Post</a>
-                 </div>
 
-             </div>
+                    <a href="javascript:void(0)" class="btn-sucsess">View Post</a>
+            </div>
          </div>
      </div>
 
@@ -287,48 +293,66 @@
             <div class="shape-img">
                 <img src="../../assets/img/background/s.png">
             </div>
-             <div class="footer-items ">
-                 <h3>Get In Touch</h3>
-                  <div class="get-in d-flex">
+            <div class="footer-items ">
+                <h3>Get In Touch</h3>
+                <div class="get-in d-flex">
                     <ul class=" ">
                         <li class="d-flex align-center">
-                             <a href="javascript:void(0)"><i class="ri-phone-fill"></i></a>
-                            <h5 class="rich">01234567890</h5>
+                            <a href="tel:01234567890" class="d-flex align-center">
+                                <i class="ri-phone-fill"></i>
+                                <a class="rich" href="javascript:void(0)">01234567890</a>
+                            </a>
                         </li>
                         <li class="d-flex align-center">
-                            <a href="javascript:void(0)"><i class="ri-mail-unread-fill"></i></a>
-                           <h5 class="rich">hello@abg.co.uk</h5>
-                       </li>
+                            <a href="javascript:void(0)" class="d-flex align-center"><i class="ri-mail-unread-fill "></i>
+                                <h5 class="rich">hello@abg.co.uk</h5>
+                            </a>
+                        </li>
 
-                     </ul>
-                     <div class="mapin d-flex">
+                    </ul>
+                    <div class="mapin d-flex">
                         <li class="d-flex align-center ">
                             <a href="javascript:void(0)"><i class="ri-map-pin-2-fill"></i></a>
-                           <h5 class="richtext-2">110 Road name here Town or place Dl12 SQU</h5>
-                       </li>
+                            <h5 class="richtext-2">110 Road name here Town or place Dl12 SQU</h5>
+                        </li>
                     </div>
-                  </div>
-             </div>
+                </div>
+            </div>
 
 
             <div class="footer-items">
                 <div class="sign-up">
+                    <div class="top-icons">
+                        <a href="https://in.linkedin.com/">
+                            <img src="../../assets/img/icons/linkdin.png" />
+                        </a>
+                        <a href="https://www.facebook.com/">
+                            <img src="../../assets/img/icons/Group 174.svg" />
+                        </a>
+                        <a href="https://www.instagram.com/accounts/login/">
+                            <img src="../../assets/img/icons/instagram.png" />
+                        </a>
+                        <a href="https://x.com/i/flow/login">
+                            <img src="../../assets/img/icons/twitter.png" />
+                        </a>
+                    </div>
                     <h3>Sign Up & Stay Updated</h3>
                     <form>
-                        <input placeholder="enter your email address"/>
-                         <button type="submit">  <a href="javascript:void(0)"><i class="ri-arrow-right-line"></i></a></button>
+                        <input placeholder="enter your email address" type="email" required />
+                        <button type="submit"><i class="ri-arrow-right-line"></i></a></button>
                     </form>
-                    <div class="icons-social">
-                        <a href="javascript:void(0)"><i class="ri-linkedin-fill"></i></a>
-                        <a href="javascript:void(0)"><i class="ri-facebook-fill"></i></a>
-                        <a href="javascript:void(0)"><i class="ri-twitter-fill"></i></a>
-                        <a href="javascript:void(0)"><i class="ri-instagram-fill"></i></a>
-                    </div>
+
                 </div>
 
+            </div>
+
+        </div>
+        <div class="copyright">
+            <h3>PRIVACY POLICY</h3>
         </div>
     </div>
 </footer>
+
 
 
 

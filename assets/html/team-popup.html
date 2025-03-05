@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" type="text/css" />
     <link rel="stylesheet" href="../../assets/fonts/fonts/remixicon.css" type="text/css">
-    <link rel="stylesheet" href="../../assets/fonts/tom-fonts/stylesheet.css" type="text/css">
+    <link rel="stylesheet" href="../../assets/fonts/round/stylesheet.css" type="text/css">
     <link rel="stylesheet" href="../../assets/css/team-popup.css" type="text/css">
     <link rel="stylesheet" href="../../assets/css/team-media-popup.css" type="text/css">
 </head>
@@ -17,63 +17,72 @@
 <body>
 
     <!-- HEADER -->
-    <div class="div">
-        <div class="container d-flex align-center justify-between">
-            <div class="call-icons d-flex">
+<div class="div">
+    <div class="container d-flex align-center justify-between">
+        <div class="top-left-section d-flex">
+            <a href="tel:01234 567890">
                 <img src="../../assets/img/icons/call.svg" title="call" alt="call" />
-                <ul>
-                    <li>01234 567890 - Mon-Fri 9am to 6.30pm</li>
-                </ul>
+                <a href="javascript:void(0)">01234 567890 - Mon-Fri 9am to 6.30pm
+                </a>
+            </a>
+
+        </div>
+        <div class="top-icons">
+            <a href="https://in.linkedin.com/">
+                <img src="../../assets/img/icons/linkdin.png" />
+            </a>
+            <a href="https://www.facebook.com/">
+                <img src="../../assets/img/icons/facebook.png" />
+            </a>
+            <a href="https://www.instagram.com/accounts/login/">
+                <img src="../../assets/img/icons/instagram.png" />
+            </a>
+            <a href="https://x.com/i/flow/login">
+                <img src="../../assets/img/icons/twitter.png" />
+            </a>
+        </div>
+    </div>
+</div>
+<header class="header">
+    <div class="container">
+        <div class="header_inner ">
+            <div class="header_left">
+                <a href="#" class="header_logo_image">
+                    <img src="../../assets/img/icons/dark-logo.png" class=" dark-logo" />
+                    <img src="../../assets/img/icons/logo.svg" alt="images" class=" d-none light-logo">
+                </a>
+
             </div>
-            <div class="icons-socia">
-                <a href="javascript:void(0)"><i class="ri-linkedin-fill"></i></a>
-                <a href="javascript:void(0)"><i class="ri-facebook-fill"></i></a>
-                <a href="javascript:void(0)"><i class="ri-twitter-fill"></i></a>
-                <a href="javascript:void(0)"><i class="ri-instagram-fill"></i></a>
+            <div class="header_right d-flex">
+                <input class="menu-btn" type="checkbox" id="menu-btn" />
+                <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+                <ul class="header_unorderlist">
+                    <li>
+                        <a href="#" class="header_options_a">Who We Are</a>
+                    </li>
+                    <li>
+                        <a href="#" class="header_options_a">Testimonials</a>
+                    </li>
+                    <li>
+                        <a href="#" class="header_options_a">News & Araticals</a>
+                    </li>
+                    <a href="javascript:void(0)" class="btn-primary">Get In Touch</a>
+
+                    <div class="header-icons">
+
+                        <a href="javascript:void(0)"><i class="ri-linkedin-fill"></i></a>
+                        <a href="javascript:void(0)"><i class="ri-facebook-fill"></i></a>
+                        <a href="javascript:void(0)"><i class="ri-twitter-fill"></i></a>
+                        <a href="javascript:void(0)"><i class="ri-instagram-fill"></i></a>
+
+                    </div>
+                </ul>
+
             </div>
         </div>
     </div>
-    <header class="header">
-        <div class="container">
-            <div class="header_inner ">
-                <div class="header_left">
-                    <a href="#" class="header_logo_image">
-                        <img src="../../assets/img/icons/dark-logo.png" alt="images">
-                    </a>
+</header>
 
-                </div>
-                <div class="header_right d-flex">
-                    <input class="menu-btn" type="checkbox" id="menu-btn" />
-                    <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
-                    <ul class="header_unorderlist">
-                        <li>
-                            <a href="" class="header_options_a">Who We Are</a>
-                        </li>
-                        <li>
-                            <a href="#" class="header_options_a">Testimonials</a>
-                        </li>
-                        <li>
-                            <a href="#" class="header_options_a">News & Araticals</a>
-                        </li>
-                            <a href="javascript:void(0)" class="header_options_a header_anchor">
-                                Get In Touch
-                            </a>
-                            <div class="header-icons ">
-
-                                <a href="javascript:void(0)"><i class="ri-linkedin-fill"></i></a>
-                                <a href="javascript:void(0)"><i class="ri-facebook-fill"></i></a>
-                                <a href="javascript:void(0)"><i class="ri-twitter-fill"></i></a>
-                                <a href="javascript:void(0)"><i class="ri-instagram-fill"></i></a>
-
-                            </div>
-
-                    </ul>
-
-
-                </div>
-            </div>
-        </div>
-    </header>
 
 
 
@@ -82,7 +91,7 @@
         <div class="container">
             <div class="services-title text-center d-flex justify-between align-center">
                 <h4 class="services-heading">Our Team</h4>
-                <a href="javascript:void(0)">View All</a>
+                <a href="javascript:void(0)" class="btn-info">View All</a>
             </div>
             <div class="services-inner">
 
