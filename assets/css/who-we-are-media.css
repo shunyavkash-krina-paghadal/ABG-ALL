@@ -263,11 +263,7 @@
      .pro-title{
         text-align: left;
      }
-    .process-inner{
-        display: grid;
-        grid-template-columns: repeat(1 , 1fr);
-        gap: 20px;
-    }
+
 
 
     /* CARDS */
@@ -282,7 +278,13 @@
 
 }
 
-
+@media (max-width:700px) {
+        .process-inner {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr)!important;
+        gap: 20px;
+    }
+}
 @media (max-width:570px) {
 
     /* TOP-DIV */
@@ -336,6 +338,7 @@
 		grid-template-columns:repeat(1 , 1fr);
 		gap: 20px
 	 }
+
         .services-inner {
     display: grid;
     grid-template-columns: repeat(1, 1fr)!important;
@@ -353,6 +356,7 @@
     top: -24%;
     object-fit: cover;
 }
+
 
 }
 
