@@ -88,7 +88,8 @@ ul,ol{
     align-items: center;
     justify-content: space-between;
     list-style: none;
-    gap: 40px;
+    gap: 20px;
+    white-space: nowrap;
  }
  .header-icons a{
    display: none;

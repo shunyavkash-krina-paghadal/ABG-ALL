@@ -49,10 +49,13 @@
 a.btn-primary {
     margin-top: 60px;
 }
+.div{
+    display: none;
+}
 	.header_unorderlist{
         display: none;
         position: absolute;
-        top: 106px;
+        top: 79px;
         left: 0;
         width: 100%;
         background-color:white;
@@ -62,6 +65,7 @@ a.btn-primary {
         z-index: 999;
         height: 100vh;
         align-items: start;
+        white-space: nowrap;
         justify-content: inherit;
     }
     .header_unorderlist li {
@@ -338,7 +342,7 @@ a.btn-primary {
 }
  .que-img {
         position: absolute;
-        top: -60%;
+        top: -52%;
         height: 100%;
         right: 2%;
         z-index: 999;
