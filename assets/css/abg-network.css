@@ -401,7 +401,7 @@ a.btn-secondary:hover{
 section.two-col-section {
     transform: translateY(36px);
     position: relative;
-    z-index: 9999;
+    z-index: 1;
 }
  .two-col-inner{
     display: grid;

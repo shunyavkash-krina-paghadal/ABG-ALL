@@ -210,7 +210,9 @@
 
 @media (max-width:834px) {
 
-
+.two-col-section{
+		transform: translateY(0);
+	}
     /* NAVIGATION */
 
     nav li{
@@ -353,7 +355,7 @@
 .header_unorderlist{
         display: none;
         position: absolute;
-        top:100%;
+        top:78%;
         left: 0;
         width: 100%;
         background-color:white;
